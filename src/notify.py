@@ -52,9 +52,8 @@ def _room_title(room: dict) -> str:
 
 
 def room_block(room: dict, icon: str) -> dict:
+    # リンクは右の「部屋を見る」ボタンに任せ、部屋名は普通の太字にする
     title = _room_title(room)
-    if room.get("url"):
-        title = f"<{room['url']}|{title}>"
     lines = [
         f"{icon} *{title}*",
         f"{room.get('layout') or '間取り不明'} ／ {_fmt_area(room.get('area'))} ／ {_fmt_floor(room)}",

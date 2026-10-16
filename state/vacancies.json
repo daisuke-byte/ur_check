@@ -19,24 +19,6 @@
       "room_name": "11号棟2608号室",
       "total": 171400,
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000112608"
-    },
-    "30_583_0:000050204": {
-      "access": [
-        "JR京葉線「新浦安」駅 徒歩25～29分 又はバス10分 徒歩2～4分"
-      ],
-      "area": 77.0,
-      "commonfee": 8000,
-      "danchi_id": "30_583_0",
-      "danchi_name": "浦安マリナイースト２１海園の街",
-      "floor": 2,
-      "floor_all": 9,
-      "key": "30_583_0:000050204",
-      "layout": "2LDK",
-      "rent": 166400,
-      "room_id": "000050204",
-      "room_name": "5号棟204号室",
-      "total": 174400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5830_room.html?JKSS=000050204"
     }
   }
 }

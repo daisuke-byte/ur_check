@@ -1,0 +1,50 @@
+name: UR vacancy watch
+
+on:
+  schedule:
+    - cron: "0 * * * *" # 1時間おき（UTC）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 前の実行が終わる前に次が始まらないようにする（state の書き込みが競合しないように）
+concurrency:
+  group: ur-vacancy-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check vacancies
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python -m src.main
+
+      - name: Commit state if changed
+        run: |
+          if git diff --quiet -- state/; then
+            echo "state に変化なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/
+          git commit -m "Update vacancy state"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

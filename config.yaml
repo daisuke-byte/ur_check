@@ -1,0 +1,54 @@
+# UR賃貸 空室ウォッチャーの設定
+#
+# 監視する団地と、通知する部屋の条件をここで管理します。
+
+area_name: 新浦安エリア
+
+# 団地ページのURLに使うパス（https://www.ur-net.go.jp/chintai/<area_path>/<shisya>_<danchi><shikibetu>.html）
+area_path: kanto/chiba
+
+# 通知する部屋の条件（null の項目は無効）
+filters:
+  max_total_rent: 200000   # 家賃＋共益費の上限（円）。必須
+  min_area: null           # 最低面積（㎡）。例: 50
+  min_layout: null         # 最低間取り。例: "1DK"（1K < 1DK < 1LDK < 2K < 2DK < 2LDK < ...）
+  min_floor: null          # 最低階数。例: 3
+
+# 取得時のふるまい
+request:
+  interval_seconds: 1.5    # リクエストの間に空ける秒数
+  max_retries: 3           # 失敗したときのリトライ回数（指数バックオフ）
+  timeout_seconds: 20
+
+# 何回連続で取得に失敗したら Slack に ⚠️ を送るか
+error_alert_after: 3
+
+# 監視対象の団地
+#   id: <shisya>_<danchi>_<shikibetu>（団地ページURLの 30_5120.html → 30_512_0）
+#   access: 通知に載せる最寄り駅と所要時間
+danchi:
+  - id: "30_312_0"
+    name: 浦安ニューシティ美浜西エステート
+    access:
+      - JR京葉線「新浦安」駅 徒歩6～12分
+  - id: "30_418_0"
+    name: 浦安マリナイースト２１フォーラム海風の街
+    access:
+      - JR京葉線「新浦安」駅 徒歩12～14分 又はバス2分 徒歩1～3分
+  - id: "30_513_0"
+    name: 浦安マリナイースト２１潮音の街
+    access:
+      - JR京葉線「新浦安」駅 バス7分 徒歩5～7分
+  - id: "30_512_0"
+    name: 浦安マリナイースト２１望海の街
+    access:
+      - JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分
+  - id: "30_583_0"
+    name: 浦安マリナイースト２１海園の街
+    access:
+      - JR京葉線「新浦安」駅 徒歩25～29分 又はバス10分 徒歩2～4分
+  - id: "30_584_0"
+    name: コンフォール舞浜（コンフォール浦安弁天）
+    access:
+      - JR京葉線「舞浜」駅 徒歩17～20分
+      - JR京葉線「新浦安」駅 徒歩28～30分

@@ -62,6 +62,24 @@
 > **注意:** GitHub は、リポジトリに60日間コミットなどの動きがないとスケジュール実行を自動で止めます。
 > 空室の変化があれば state のcommitで動きが出ますが、止まった場合は Actions タブから再度有効にしてください。
 
+### 4. （推奨）cron-job.org から毎時実行する
+
+GitHub の自動実行（schedule）は混雑時に間引かれ、数時間動かないことがあります。
+確実に1時間おきに動かすため、無料の [cron-job.org](https://cron-job.org) から毎時 `workflow_dispatch` を呼んでいます。
+workflow 内の schedule は予備として残しています（同時に動いても `concurrency` で順番に処理されます）。
+
+1. GitHub で Fine-grained personal access token を作る
+   （対象リポジトリはこのリポジトリだけ、権限は **Actions: Read and write** のみ）
+2. cron-job.org で次の cronjob を作る
+   - URL: `https://api.github.com/repos/daisuke-byte/ur_check/actions/workflows/watch.yml/dispatches`
+   - スケジュール: 毎時
+   - Method: `POST`
+   - Headers: `Authorization: Bearer <トークン>`、`Accept: application/vnd.github+json`、`Content-Type: application/json`
+   - Body: `{"ref":"claude/ur-vacancy-watcher-uuo4ez"}`
+3. TEST RUN で 204 が返れば成功
+
+トークンを作り直したときは、cron-job.org の Authorization も更新してください。
+
 ## 条件や団地を変える
 
 `config.yaml` を編集してcommitします。

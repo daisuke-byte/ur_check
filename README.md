@@ -4,7 +4,7 @@
 
 - 監視している団地: 浦安市内のUR団地6か所（`config.yaml`）
 - 条件: 家賃＋共益費が200,000円以下（面積・間取り・階数の条件も `config.yaml` で追加できます）
-- 実行場所: GitHub Actions（毎時0分。手動でも実行できます）
+- 実行場所: GitHub Actions（毎時17分ごろ。手動でも実行できます）
 - データの取得元: URのサイトが内部で使っているJSON API（[docs/data-source.md](docs/data-source.md)）
 
 ## 通知のされ方
@@ -56,7 +56,7 @@
 2. **Settings** → **Actions** → **General** → **Workflow permissions** が
    「Read and write permissions」になっているか確認する（`state/vacancies.json` をcommitするため）
 3. **Actions** タブ → **UR vacancy watch** → **Run workflow** で手動実行する
-4. Slack に「🏠 新浦安エリアの現在の空室 N件」が届けば完了です。以降は毎時0分ごろに自動で動きます
+4. Slack に「🏠 新浦安エリアの現在の空室 N件」が届けば完了です。以降は毎時17分ごろに自動で動きます
    （GitHub側の混雑で数分〜十数分遅れることがあります）
 
 > **注意:** GitHub は、リポジトリに60日間コミットなどの動きがないとスケジュール実行を自動で止めます。

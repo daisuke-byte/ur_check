@@ -19,6 +19,25 @@
       "room_name": "11号棟2608号室",
       "total": 171400,
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000112608"
+    },
+    "30_584_0:000020104": {
+      "access": [
+        "JR京葉線「舞浜」駅 徒歩17～20分",
+        "JR京葉線「新浦安」駅 徒歩28～30分"
+      ],
+      "area": 71.0,
+      "commonfee": 4600,
+      "danchi_id": "30_584_0",
+      "danchi_name": "コンフォール舞浜（コンフォール浦安弁天）",
+      "floor": 1,
+      "floor_all": 3,
+      "key": "30_584_0:000020104",
+      "layout": "3LDK",
+      "rent": 165900,
+      "room_id": "000020104",
+      "room_name": "2号棟104号室",
+      "total": 170500,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5840_room.html?JKSS=000020104"
     }
   }
 }

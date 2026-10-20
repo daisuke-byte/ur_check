@@ -1,24 +1,5 @@
 {
   "failures": {},
   "initialized": true,
-  "vacancies": {
-    "30_512_0:000060606": {
-      "access": [
-        "JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分"
-      ],
-      "area": 58.0,
-      "commonfee": 7100,
-      "danchi_id": "30_512_0",
-      "danchi_name": "浦安マリナイースト２１望海の街",
-      "floor": 6,
-      "floor_all": 11,
-      "key": "30_512_0:000060606",
-      "layout": "2LDK",
-      "rent": 150200,
-      "room_id": "000060606",
-      "room_name": "6号棟606号室",
-      "total": 157300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000060606"
-    }
-  }
+  "vacancies": {}
 }

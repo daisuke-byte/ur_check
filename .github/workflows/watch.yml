@@ -32,7 +32,10 @@ jobs:
       - name: Check vacancies
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: python probe.py
+        run: |
+          python probe.py > probe_out.txt 2>&1 || true
+          git config user.name bot; git config user.email bot@example.com
+          git add probe_out.txt; git commit -m probe-out; git push
 
       - name: Commit state if changed
         run: |

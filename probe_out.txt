@@ -1,0 +1,173 @@
+status 200 len 5418
+[{"madori":null,"allCount":"0","bukkenCount":"1","roomCount":"0","bukkenImg":"https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_382/20_382_photo_s.jpg","pageIndex":"0","rowMax":"50","pageMax":"5","rentMin":null,"rentMax":null,"station":[],"block":"kanto","tdfk":"tokyo","shisya":"20","danchi":"
+TOP TYPE list LEN 1
+{
+ "madori": null,
+ "allCount": "0",
+ "bukkenCount": "1",
+ "roomCount": "0",
+ "bukkenImg": "https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_382/20_382_photo_s.jpg",
+ "pageIndex": "0",
+ "rowMax": "50",
+ "pageMax": "5",
+ "rentMin": null,
+ "rentMax": null,
+ "station": [],
+ "block": "kanto",
+ "tdfk": "tokyo",
+ "shisya": "20",
+ "danchi": "382",
+ "shikibetu": "0",
+ "danchiNm": "神田小川町ハイツ",
+ "traffic": "<li>都営新宿線｢小川町｣駅 徒歩2分</li><li>東京メトロ千代田線｢新御茶ノ水｣駅 徒歩2分</li><li>東京メトロ丸ノ内線｢淡路町｣駅 徒歩3分</li>",
+ "trafficpdf": "",
+ "place": "千代田区神田小川町1-7",
+ "shikikin": "2か月",
+ "requirement": "ナシ",
+ "kouzou": "鉄骨鉄筋コンクリート造",
+ "floorAll": "10",
+ "shopBlock": "kanto",
+ "shopTdfk": "tokyo",
+ "shopHtmlName": "yaesu",
+ "shopName": "UR八重洲営業センター",
+ "shopNum": "03-3271-0611",
+ "shopOpentime": "10：00～18：00",
+ "shopHoliday": "年末年始（12/29～1/3）、5/3～5/5",
+ "priorityLink": "",
+ "danchiFeatureParam": [],
+ "kiboRoom": [
+  {
+   "roomLinkPc": "/chintai/kanto/tokyo/20_6000_room.html?JKSS=000010410",
+   "roomLinkSp": "/chintai/sp/kanto/tokyo/20_6000_room.html?JKSS=000010410",
+   "roomImg": "https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_600/20_600_photo_s.jpg",
+   "bukkenNm": "フレーシェル王子神谷",
+   "building": "1",
+   "roomNo": "410",
+   "id": null,
+   "year": null,
+   "name": null,
+   "shikikin": null,
+   "requirement": null,
+   "madori": null,
+   "rent": "120,800円",
+   "rent_normal": null,
+   "rent_normal_css": null,
+   "commonfee": null,
+   "commonfee_sp": null,
+   "status": null,
+   "type": "1DK",
+   "floorspace": null,
+   "floor": null,
+   "urlDetail": null,
+   "urlDetail_sp": null,
+   "feature": null
+  },
+  {
+   "roomLinkPc": "/chintai/kanto/tokyo/20_1310_room.html?JKSS=000013402",
+   "roomLinkSp": "/chintai/sp/kanto/tokyo/20_1310_room.html?JKSS=000013402",
+   "roomImg": "https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_131/20_131_photo_s.jpg",
+   "bukkenNm": "竹の塚第二",
+   "building": "13",
+   "roomNo": "402",
+   "id": null,
+   "year": null,
+   "name": null,
+   "shikikin": null,
+   "requirement": null,
+   "madori": null,
+   "rent": "96,900円",
+   "rent_normal": null,
+   "rent_normal_css": null,
+   "commonfee": null,
+   "commonfee_sp": null,
+   "status": null,
+   "type": "3DK",
+   "floorspace": null,
+   "floor": null,
+   "urlDetail": null,
+   "urlDetail_sp": null,
+   "feature": null
+  },
+  {
+   "roomLinkPc": "/chintai/kanto/tokyo/20_2160_room.html?JKSS=029003504",
+   "roomLinkSp": "/chintai/sp/kanto/tokyo/20_2160_room.html?JKSS=029003504",
+   "roomImg": "https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_216/20_216_photo_s.jpg",
+   "bukkenNm": "江北六丁目",
+   "building": "29-3",
+   "roomNo": "504",
+   "id": null,
+   "year": null,
+   "name": null,
+   "shikikin": null,
+   "requirement": null,
+   "madori": null,
+   "rent": "91,700円",
+   "rent_normal": null,
+   "rent_normal_css": null,
+   "commonfee": null,
+   "commonfee_sp": null,
+   "status": null,
+   "type": "3DK",
+   "floorspace": null,
+   "floor": null,
+   "urlDetail": null,
+   "urlDetail_sp": null,
+   "feature": null
+  },
+  {
+   "roomLinkPc": "/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205",
+   "roomLinkSp": "/chintai/sp/kanto/tokyo/20_2250_room.html?JKSS=233050205",
+   "roomImg": "https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_225/20_225_photo_s.jpg",
+   "bukkenNm": "高島平",
+   "building": "2-33-5",
+   "roomNo": "205",
+   "id": null,
+   "year": null,
+   "name": null,
+   "shikikin": null,
+   "requirement": null,
+   "madori": null,
+   "rent": "96,000円",
+   "rent_normal": null,
+   "rent_normal_css": null,
+   "commonfee": null,
+   "commonfee_sp": null,
+   "status": null,
+   "type": "2DK",
+   "floorspace": null,
+   "floor": null,
+   "urlDetail": null,
+   "urlDetail_sp": null,
+   "feature": null
+  },
+  {
+   "roomLinkPc": "/chintai/kanto/tokyo/20_1780_room.html?JKSS=000011201",
+   "roomLinkSp": "/chintai/sp/kanto/tokyo/20_1780_room.html?JKSS=000011201",
+   "roomImg": "https://chintai.r6.ur-net.go.jp/chintai/img_photo/20/20_178/20_178_photo_s.jpg",
+   "bukkenNm": "大島四丁目",
+   "building": "1",
+   "room
+101 200 bukkenCount 1 returned 1 with_rooms 0
+102 200 bukkenCount 10 returned 10 with_rooms 0
+103 200 bukkenCount 2 returned 2 with_rooms 0
+104 200 bukkenCount 2 returned 2 with_rooms 0
+105 200 bukkenCount 3 returned 3 with_rooms 0
+106 200 bukkenCount 3 returned 3 with_rooms 0
+107 200 bukkenCount 5 returned 5 with_rooms 0
+108 200 bukkenCount 22 returned 22 with_rooms 1
+109 200 bukkenCount 5 returned 5 with_rooms 0
+110 200 bukkenCount 3 returned 3 with_rooms 0
+111 200 bukkenCount 12 returned 12 with_rooms 0
+112 200 bukkenCount 16 returned 16 with_rooms 3
+113 200 bukkenCount 2 returned 2 with_rooms 0
+114 200 bukkenCount 3 returned 3 with_rooms 0
+115 200 bukkenCount 2 returned 2 with_rooms 0
+116 200 bukkenCount 5 returned 5 with_rooms 0
+117 200 bukkenCount 13 returned 13 with_rooms 2
+118 200 bukkenCount 6 returned 6 with_rooms 0
+119 200 bukkenCount 14 returned 14 with_rooms 2
+120 200 bukkenCount 13 returned 13 with_rooms 0
+121 200 bukkenCount 22 returned 22 with_rooms 3
+122 200 bukkenCount 20 returned 20 with_rooms 1
+123 200 bukkenCount 8 returned 8 with_rooms 0
+TOTAL 192

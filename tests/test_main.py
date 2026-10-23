@@ -121,8 +121,96 @@ def test_many_rooms_fit_in_one_message():
     assert "ほか 10件" in message_text(msgs[0])
 
 
-def test_load_config_has_six_danchi():
+def test_load_config_has_six_danchi_and_tokyo23():
     config = main.load_config(main.DEFAULT_CONFIG)
     assert len(config["danchi"]) == 6
+    [area] = config["search_areas"]
+    assert area["name"] == "東京23区" and area["tdfk"] == "13"
+    assert area["skcs"] == [str(c) for c in range(101, 124)]
     assert config["filters"]["max_total_rent"] == 200000
     assert all(config["filters"][k] is None for k in ("min_area", "min_layout", "min_floor"))
+
+
+# ---- search_areas（東京23区など） ----
+
+AREA_CONFIG = {
+    **CONFIG,
+    "area_name": "新浦安・東京23区",
+    "danchi": [{"id": "30_512_0", "name": "望海の街", "access": ["新浦安 徒歩22分"]}],
+    "search_areas": [{"name": "東京23区", "block": "kanto", "tdfk": "13", "skcs": ["101", "102"]}],
+}
+
+
+def area_session(rooms_512=(), ward101=None, ward102=None, rooms_382=(), rooms_383=()):
+    from tests.helpers import api_bukken
+
+    def resp(x):
+        if isinstance(x, FakeResponse):
+            return x
+        return FakeResponse(list(x) if x else "null")
+
+    ward101 = ward101 if ward101 is not None else [
+        api_bukken("382", "神田小川町ハイツ", room_count=len(rooms_382), bukken_count=2),
+        api_bukken("383", "空き無し団地", room_count=len(rooms_383), bukken_count=2),
+    ]
+    ward102 = ward102 if ward102 is not None else []
+    return FakeSession({
+        ("512", 0): resp(rooms_512),
+        ("search", "101", 0): resp(ward101),
+        ("search", "102", 0): resp(ward102),
+        ("382", 0): resp(rooms_382),
+        ("383", 0): resp(rooms_383),
+    })
+
+
+def tokyo_room(room_id, danchi="382", **kw):
+    return api_room(room_id, shisya="20", danchi=danchi, **kw)
+
+
+def test_adding_area_sends_its_current_list_once_then_only_new():
+    # 新浦安だけ監視していた状態から東京23区を追加
+    state = roundtrip({"initialized": True, "vacancies": {}, "failures": {}})
+    s = area_session(rooms_382=[tokyo_room("T1", name="1号棟101号室")])
+    state, msgs = main.run(AREA_CONFIG, state, session=s, sleep=no_sleep)
+    assert len(msgs) == 1
+    text = message_text(msgs[0])
+    assert "東京23区の現在の空室 1件" in text
+    assert "都営新宿線「小川町」駅 徒歩2分" in text
+    assert state["initialized_areas"] == ["東京23区"]
+    # 空室0件の団地には詳細を取りに行かない
+    assert ("383", 0) not in s.calls
+
+    # 次の回：東京で新着が出たら通常の新着として届く
+    state = roundtrip(state)
+    s = area_session(rooms_382=[tokyo_room("T1", name="1号棟101号室"), tokyo_room("T2", name="2号棟202号室", all_count=2)])
+    state, msgs = main.run(AREA_CONFIG, state, session=s, sleep=no_sleep)
+    assert len(msgs) == 1
+    text = message_text(msgs[0])
+    assert "新浦安・東京23区に新着の空室 1件" in text and "2号棟202号室" in text
+
+
+def test_area_rooms_gone_when_danchi_becomes_empty():
+    state = roundtrip(main.run(AREA_CONFIG, {}, session=area_session(rooms_382=[tokyo_room("T1")]), sleep=no_sleep)[0])
+    assert "20_382_0:T1" in state["vacancies"]
+    state, msgs = main.run(AREA_CONFIG, state, session=area_session(), sleep=no_sleep)
+    assert msgs == [] and state["vacancies"] == {}
+
+
+def test_area_search_failure_keeps_previous_rooms():
+    state = roundtrip(main.run(AREA_CONFIG, {}, session=area_session(rooms_382=[tokyo_room("T1")]), sleep=no_sleep)[0])
+    alerts = []
+    for _ in range(3):
+        s = area_session(ward101=FakeResponse("", status=500))
+        state, msgs = main.run(AREA_CONFIG, state, session=s, sleep=no_sleep)
+        state = roundtrip(state)
+        assert "20_382_0:T1" in state["vacancies"]
+        alerts += [m for m in msgs if "⚠️" in m["text"]]
+    assert len(alerts) == 1 and "市区町村コード101" in message_text(alerts[0])
+
+
+def test_first_run_with_area_sends_one_combined_list():
+    s = area_session(rooms_512=[api_room("A1")], rooms_382=[tokyo_room("T1")])
+    state, msgs = main.run(AREA_CONFIG, {}, session=s, sleep=no_sleep)
+    assert len(msgs) == 1
+    assert "新浦安・東京23区の現在の空室 2件" in message_text(msgs[0])
+    assert state["initialized_areas"] == ["東京23区"]

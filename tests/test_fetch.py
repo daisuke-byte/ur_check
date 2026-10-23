@@ -68,3 +68,26 @@ def test_unexpected_shape_is_failure():
 
 def test_danchi_page_url():
     assert fetch.danchi_page_url("30_512_0", "kanto/chiba") == "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120.html"
+
+
+def test_parse_traffic():
+    assert fetch.parse_traffic("<li>都営新宿線｢小川町｣駅 徒歩2分</li><li>JR &amp; 私鉄 徒歩5分</li>") == [
+        "都営新宿線「小川町」駅 徒歩2分",
+        "JR & 私鉄 徒歩5分",
+    ]
+    assert fetch.parse_traffic(None) == []
+
+
+def test_search_area_lists_danchi():
+    from tests.helpers import api_bukken
+
+    session = FakeSession({("search", "101", 0): FakeResponse([api_bukken("382", "神田小川町ハイツ", room_count=2)])})
+    [d] = fetch.search_area(session, block="kanto", tdfk="13", skcs="101", sleep=no_sleep)
+    assert d["id"] == "20_382_0" and d["name"] == "神田小川町ハイツ" and d["room_count"] == 2
+    assert d["access"][0] == "都営新宿線「小川町」駅 徒歩2分"
+
+
+def test_search_area_bad_record_is_failure():
+    session = FakeSession({("search", "101", 0): FakeResponse([{"danchiNm": "x"}])})
+    with pytest.raises(fetch.FetchError):
+        fetch.search_area(session, block="kanto", tdfk="13", skcs="101", max_retries=0, sleep=no_sleep)

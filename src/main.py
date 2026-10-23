@@ -26,12 +26,21 @@ DEFAULT_STATE = ROOT / "state" / "vacancies.json"
 def load_config(path: Path) -> dict:
     with open(path, encoding="utf-8") as f:
         config = yaml.safe_load(f) or {}
-    if not config.get("danchi"):
-        raise ValueError(f"{path}: danchi が空です")
+    config["danchi"] = config.get("danchi") or []
+    if not config["danchi"] and not config.get("search_areas"):
+        raise ValueError(f"{path}: danchi も search_areas も空です")
     for d in config["danchi"]:
         fetch.split_danchi_id(str(d.get("id", "")))
         d["id"] = str(d["id"])
         d.setdefault("name", d["id"])
+    areas = config.setdefault("search_areas", []) or []
+    config["search_areas"] = areas
+    for a in areas:
+        if not a.get("name") or not a.get("skcs") or not a.get("tdfk"):
+            raise ValueError(f"{path}: search_areas には name / tdfk / skcs が必要です: {a!r}")
+        a["tdfk"] = str(a["tdfk"])
+        a["skcs"] = [str(c) for c in a["skcs"]]
+        a.setdefault("block", "kanto")
     filters = config.setdefault("filters", {})
     if filters.get("max_total_rent") is None:
         raise ValueError(f"{path}: filters.max_total_rent は必須です")
@@ -55,6 +64,15 @@ def dump_state(state: dict) -> str:
     return json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
 
 
+def _record_failure(failures: dict, key: str, error: Exception) -> None:
+    prev = failures.get(key, {})
+    failures[key] = {
+        "count": prev.get("count", 0) + 1,
+        "notified": prev.get("notified", False),
+        "last_error": str(error)[:300],
+    }
+
+
 def run(
     config: dict,
     state: dict,
@@ -65,75 +83,139 @@ def run(
     """1回分の監視。新しい state と、送るメッセージのリストを返す（送信はしない）。"""
     req = config["request"]
     interval = float(req.get("interval_seconds", 1.5))
+    opts = dict(
+        interval=interval,
+        max_retries=int(req.get("max_retries", 3)),
+        timeout=float(req.get("timeout_seconds", 20)),
+        sleep=sleep,
+    )
     session = session or fetch.make_session()
 
     previous: dict[str, dict] = state.get("vacancies", {})
     failures: dict[str, dict] = dict(state.get("failures", {}))
     fetched: dict[str, list[dict] | None] = {}
+    names: dict[str, str] = {}
+    danchi_order: list[str] = []
+    first_request = True
 
-    for i, danchi in enumerate(config["danchi"]):
-        if i:
+    def pause():
+        nonlocal first_request
+        if not first_request:
             sleep(interval)
+        first_request = False
+
+    def fetch_danchi(danchi: dict) -> None:
+        names[danchi["id"]] = danchi["name"]
+        danchi_order.append(danchi["id"])
+        pause()
         try:
-            rooms = fetch.fetch_rooms(
-                session,
-                danchi,
-                interval=interval,
-                max_retries=int(req.get("max_retries", 3)),
-                timeout=float(req.get("timeout_seconds", 20)),
-                sleep=sleep,
-            )
+            rooms = fetch.fetch_rooms(session, danchi, **opts)
         except fetch.FetchError as e:
             print(f"[warn] {danchi['name']}: {e}", file=sys.stderr)
             fetched[danchi["id"]] = None
-            prev = failures.get(danchi["id"], {})
-            failures[danchi["id"]] = {
-                "count": prev.get("count", 0) + 1,
-                "notified": prev.get("notified", False),
-                "last_error": str(e)[:300],
-            }
-            continue
+            _record_failure(failures, danchi["id"], e)
+            return
         failures.pop(danchi["id"], None)
         fetched[danchi["id"]] = filter.apply(rooms, config["filters"])
         print(f"[info] {danchi['name']}: 空室 {len(rooms)}件（条件に合うもの {len(fetched[danchi['id']])}件）", file=sys.stderr)
 
+    # 1) config に書いた団地（新浦安エリアなど）
+    for danchi in config["danchi"]:
+        fetch_danchi(danchi)
+
+    # 2) search_areas（東京23区など）：区ごとに団地一覧を取り、空室がある団地だけ詳しく取得する
+    area_groups: dict[str, list[str]] = {}  # エリア名 → その区の group キー
+    area_failed: dict[str, int] = {}
+    for area in config.get("search_areas") or []:
+        groups = area_groups.setdefault(area["name"], [])
+        for skcs in area["skcs"]:
+            group = f"{area['name']}:{skcs}"
+            groups.append(group)
+            search_key = f"search:{group}"
+            names[search_key] = f"{area['name']}（市区町村コード{skcs}）の団地一覧"
+            pause()
+            try:
+                found = fetch.search_area(session, block=area["block"], tdfk=area["tdfk"], skcs=skcs, **opts)
+            except fetch.FetchError as e:
+                print(f"[warn] {names[search_key]}: {e}", file=sys.stderr)
+                _record_failure(failures, search_key, e)
+                area_failed[area["name"]] = area_failed.get(area["name"], 0) + 1
+                # この区で前回空室があった団地は、前回の状態を残す
+                for room in previous.values():
+                    if room.get("group") == group:
+                        fetched[room["danchi_id"]] = None
+                        names.setdefault(room["danchi_id"], room["danchi_name"])
+                continue
+            failures.pop(search_key, None)
+            with_rooms = 0
+            for d in found:
+                if d["id"] in names:  # 既に config 側や別の区で取得済み
+                    continue
+                danchi = {"id": d["id"], "name": d["name"], "access": d["access"], "group": group}
+                if d["room_count"] > 0:
+                    with_rooms += 1
+                    fetch_danchi(danchi)
+                else:
+                    names[d["id"]] = d["name"]
+                    danchi_order.append(d["id"])
+                    fetched[d["id"]] = []
+                    failures.pop(d["id"], None)
+            print(f"[info] {names[search_key]}: {len(found)}団地（空室あり {with_rooms}団地）", file=sys.stderr)
+
     current = diff.merge_current(previous, fetched)
     messages: list[dict] = []
-    common = dict(
-        area_name=config["area_name"],
-        filters=config["filters"],
-        danchi_order=[d["id"] for d in config["danchi"]],
-    )
+    common = dict(filters=config["filters"], danchi_order=danchi_order)
+
+    def area_of(room: dict) -> str | None:
+        group = room.get("group")
+        return group.split(":", 1)[0] if group else None
 
     initialized = bool(state.get("initialized"))
-    all_failed = all(rooms is None for rooms in fetched.values())
+    initialized_areas = set(state.get("initialized_areas", []))
+    # 今回はじめて監視するエリア（全区の検索に失敗したら次回に持ち越す）
+    starting_areas = [
+        name
+        for name, groups in area_groups.items()
+        if name not in initialized_areas and area_failed.get(name, 0) < len(groups)
+    ]
+
     if not initialized:
         # 初回なのに1件も取れなかったときは「現在0件」と誤って伝えないよう、初回扱いを次回に持ち越す
-        if not all_failed:
-            messages.append(notify.build_vacancy_message(list(current.values()), initial=True, **common))
+        if not all(rooms is None for rooms in fetched.values()) and fetched:
+            messages.append(
+                notify.build_vacancy_message(list(current.values()), initial=True, area_name=config["area_name"], **common)
+            )
             initialized = True
+            initialized_areas.update(starting_areas)
     else:
         d = diff.compute(previous, current, watched_danchi=set(fetched))
+        new = [r for r in d.new if area_of(r) not in starting_areas]
+        gone = [r for r in d.gone if area_of(r) not in starting_areas]
         # 埋まった空室だけのときは通知しない
-        if d.new:
-            messages.append(notify.build_vacancy_message(d.new, gone=d.gone, **common))
+        if new:
+            messages.append(notify.build_vacancy_message(new, gone=gone, area_name=config["area_name"], **common))
+        for name in starting_areas:
+            rooms = [r for r in current.values() if area_of(r) == name]
+            messages.append(notify.build_vacancy_message(rooms, initial=True, area_name=name, **common))
+            initialized_areas.add(name)
+    # 設定から外したエリアは忘れる（また追加したら現在の一覧から送り直す）
+    initialized_areas &= set(area_groups)
 
     # 連続失敗のアラート（復旧するまで1回だけ）
     alert_after = int(config["error_alert_after"])
-    names = {d["id"]: d["name"] for d in config["danchi"]}
     to_alert = [
-        (danchi_id, f) for danchi_id, f in failures.items() if f["count"] >= alert_after and not f["notified"]
+        (key, f) for key, f in failures.items() if f["count"] >= alert_after and not f["notified"] and key in names
     ]
     if to_alert:
-        messages.append(
-            notify.build_error_message([(names.get(i, i), f["count"], f["last_error"]) for i, f in to_alert])
-        )
-        for danchi_id, _ in to_alert:
-            failures[danchi_id] = {**failures[danchi_id], "notified": True}
-    # 監視対象から外した団地の失敗記録は消す
+        messages.append(notify.build_error_message([(names[k], f["count"], f["last_error"]) for k, f in to_alert]))
+        for key, _ in to_alert:
+            failures[key] = {**failures[key], "notified": True}
+    # 監視対象から外れた団地・区の失敗記録は消す
     failures = {k: v for k, v in failures.items() if k in names}
 
     new_state = {"initialized": initialized, "vacancies": current, "failures": failures}
+    if area_groups:
+        new_state["initialized_areas"] = sorted(initialized_areas)
     return new_state, messages
 
 

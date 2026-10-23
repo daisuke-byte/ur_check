@@ -13,6 +13,7 @@ from typing import Any, Callable
 import requests
 
 API_URL = "https://chintai.r6.ur-net.go.jp/chintai/api/bukken/detail/detail_bukken_room/"
+SEARCH_URL = "https://chintai.r6.ur-net.go.jp/chintai/api/bukken/result/bukken_result/"
 SITE_BASE = "https://www.ur-net.go.jp"
 USER_AGENT = "ur-vacancy-watcher/1.0 (personal vacancy notifier; +https://github.com/daisuke-byte/ur_check)"
 
@@ -74,6 +75,86 @@ def parse_floor(value: Any) -> int | None:
     return int(m.group(1)) if m else None
 
 
+def parse_traffic(value: Any) -> list[str]:
+    """'<li>都営新宿線｢小川町｣駅 徒歩2分</li><li>…</li>' → ['都営新宿線「小川町」駅 徒歩2分', …]"""
+    if not value:
+        return []
+    items = re.split(r"</li\s*>", str(value), flags=re.IGNORECASE)
+    out = []
+    for item in items:
+        text = html.unescape(re.sub(r"<[^>]+>", "", item)).replace("｢", "「").replace("｣", "」")
+        text = re.sub(r"\s+", " ", text).strip()
+        if text:
+            out.append(text)
+    return out
+
+
+def search_area(
+    session: requests.Session,
+    *,
+    block: str,
+    tdfk: str,
+    skcs: str,
+    interval: float = 1.5,
+    max_retries: int = 3,
+    timeout: float = 20,
+    sleep: Callable[[float], None] = time.sleep,
+) -> list[dict]:
+    """市区町村（skcs）内の全団地を返す（空室0件の団地も含む）。
+
+    返す団地: {"id", "name", "access", "room_count"}
+    """
+    found: dict[str, dict] = {}
+    for page in range(MAX_PAGES):
+        if page:
+            sleep(interval)
+        data = _post_json(
+            session,
+            {
+                "mode": "area",
+                "skcs": str(skcs),
+                "block": block,
+                "tdfk": str(tdfk),
+                "rireki_tdfk": str(tdfk),
+                "orderByField": "0",
+                "pageSize": "50",
+                "pageIndex": str(page),
+                "pageIndexRoom": "0",
+                "sp": "",
+            },
+            max_retries=max_retries,
+            timeout=timeout,
+            sleep=sleep,
+            url=SEARCH_URL,
+        )
+        if data is None:
+            if page == 0:
+                return []
+            raise FetchError(f"団地一覧の{page}ページ目が null でした")
+        if not isinstance(data, list) or not all(isinstance(b, dict) for b in data):
+            raise FetchError(f"団地一覧が想定外の形式です: {str(data)[:200]}")
+        if not data:
+            break
+        for b in data:
+            try:
+                danchi_id = f"{int(b['shisya'])}_{int(b['danchi'])}_{int(b['shikibetu'])}"
+                room_count = int(b.get("roomCount") or 0)
+                total = int(b.get("bukkenCount"))
+            except (KeyError, TypeError, ValueError):
+                raise FetchError(f"団地一覧のレコードが読めません: {str(b)[:200]}")
+            found[danchi_id] = {
+                "id": danchi_id,
+                "name": b.get("danchiNm") or danchi_id,
+                "access": parse_traffic(b.get("traffic")),
+                "room_count": room_count,
+            }
+        if len(found) >= total:
+            break
+    else:
+        raise FetchError(f"団地一覧のページ数が上限({MAX_PAGES})を超えました")
+    return list(found.values())
+
+
 def normalize_room(raw: dict, danchi: dict) -> dict:
     room_id = raw.get("id")
     if not room_id:
@@ -81,7 +162,7 @@ def normalize_room(raw: dict, danchi: dict) -> dict:
     rent = parse_yen(raw.get("rent"))
     commonfee = parse_yen(raw.get("commonfee"))
     link = raw.get("roomDetailLink") or ""
-    return {
+    room = {
         "key": f"{danchi['id']}:{room_id}",
         "danchi_id": danchi["id"],
         "danchi_name": danchi["name"],
@@ -97,6 +178,10 @@ def normalize_room(raw: dict, danchi: dict) -> dict:
         "url": SITE_BASE + link if link.startswith("/") else link,
         "access": list(danchi.get("access") or []),
     }
+    if danchi.get("group"):
+        # search_areas で見つけた団地は「どの区の検索で見つけたか」を持つ（検索失敗時に前回を残すため）
+        room["group"] = danchi["group"]
+    return room
 
 
 def _post_json(
@@ -106,6 +191,7 @@ def _post_json(
     max_retries: int,
     timeout: float,
     sleep: Callable[[float], None],
+    url: str = API_URL,
 ) -> Any:
     """POSTしてJSONを返す。失敗したら指数バックオフでリトライし、それでもだめなら FetchError。"""
     last_error: Exception | None = None
@@ -113,7 +199,7 @@ def _post_json(
         if attempt:
             sleep(2 ** attempt)  # 2, 4, 8 秒
         try:
-            resp = session.post(API_URL, data=data, timeout=timeout)
+            resp = session.post(url, data=data, timeout=timeout)
             resp.raise_for_status()
             # 空室なしは本文が "null" で返る。メンテナンス画面などのHTMLは JSON として読めずに例外になる
             return resp.json()

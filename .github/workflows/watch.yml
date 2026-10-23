@@ -33,9 +33,9 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          python probe.py > probe_out.txt 2>&1 || true
+          python -m src.main --dry-run > dry_out.txt 2>&1 || true
           git config user.name bot; git config user.email bot@example.com
-          git add probe_out.txt; git commit -m probe-out; git push
+          git add dry_out.txt; git commit -m dry-out; git push
 
       - name: Commit state if changed
         run: |

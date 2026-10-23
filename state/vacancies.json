@@ -45,27 +45,6 @@
       "total": 112300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000011001"
     },
-    "20_178_0:000011201": {
-      "access": [
-        "都営新宿線「西大島」駅 徒歩5～10分",
-        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
-        "都営新宿線「大島」駅 徒歩7～12分"
-      ],
-      "area": 54.0,
-      "commonfee": 3900,
-      "danchi_id": "20_178_0",
-      "danchi_name": "大島四丁目",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_178_0:000011201",
-      "layout": "2DK",
-      "rent": 108300,
-      "room_id": "000011201",
-      "room_name": "1号棟1201号室",
-      "total": 112200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000011201"
-    },
     "20_216_0:029003504": {
       "access": [
         "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
@@ -105,6 +84,26 @@
       "room_name": "2-33-5号棟205号室",
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205"
+    },
+    "20_267_0:000061334": {
+      "access": [
+        "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
+        "JR京浜東北・根岸線「東十条」駅 徒歩10～15分"
+      ],
+      "area": 48.0,
+      "commonfee": 4200,
+      "danchi_id": "20_267_0",
+      "danchi_name": "王子五丁目",
+      "floor": 13,
+      "floor_all": 14,
+      "group": "東京23区:117",
+      "key": "20_267_0:000061334",
+      "layout": "1LDK",
+      "rent": 118300,
+      "room_id": "000061334",
+      "room_name": "6号棟1334号室",
+      "total": 122500,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2670_room.html?JKSS=000061334"
     },
     "20_280_0:000020508": {
       "access": [

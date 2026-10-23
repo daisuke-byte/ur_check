@@ -150,3 +150,9 @@ mode=area&skcs=227&block=kanto&tdfk=12&rireki_tdfk=12&orderByField=0&pageSize=50
 - User-Agentにはツール名を明示する。
 - 公式に公開されたAPIではない（サイト内部用）ため、仕様は予告なく変わり得る。レスポンスが想定した形でなければ「取得失敗」として扱い、前回の状態を残す。
 - 空室なしは `null` で返るので、**HTTPエラーや形の崩れたJSONと区別して**扱う（`null` は正常な「0件」）。
+
+## 東京23区（2026-10-23 追加）
+
+`bukken_result` を `tdfk=13`、`skcs=101`〜`123` で区ごとに呼ぶと、その区の全団地が返る（23区で計192団地、各区とも1ページ50件に収まる）。
+各団地の `shisya`（東京は20）・`danchi`・`shikibetu`・`danchiNm`・`traffic`・`roomCount` を使い、
+`roomCount > 0` の団地だけ ① `detail_bukken_room` で全空室を取る。団地IDを config に書かずに済み、団地の増減にも追従できる。

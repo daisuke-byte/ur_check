@@ -50,10 +50,27 @@ class FakeSession:
         self.calls = []
 
     def post(self, url, data=None, timeout=None):
-        key = (data["danchi"], int(data["pageIndex"]))
+        if "skcs" in data:  # bukken_result（区の団地一覧）
+            key = ("search", data["skcs"], int(data["pageIndex"]))
+        else:
+            key = (data["danchi"], int(data["pageIndex"]))
         self.calls.append(key)
         route = self.routes[key]
         item = route.pop(0) if isinstance(route, list) else route
         if isinstance(item, Exception):
             raise item
         return item
+
+
+def api_bukken(danchi, name, room_count=0, bukken_count=1, shisya="20",
+               traffic="<li>都営新宿線｢小川町｣駅 徒歩2分</li><li>東京メトロ千代田線｢新御茶ノ水｣駅 徒歩2分</li>"):
+    """bukken_result が返す団地1件ぶんの形を真似る。"""
+    return {
+        "bukkenCount": str(bukken_count),
+        "roomCount": str(room_count),
+        "shisya": shisya,
+        "danchi": danchi,
+        "shikibetu": "0",
+        "danchiNm": name,
+        "traffic": traffic,
+    }

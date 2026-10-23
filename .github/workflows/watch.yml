@@ -32,7 +32,7 @@ jobs:
       - name: Check vacancies
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: python -m src.main
+        run: python probe.py
 
       - name: Commit state if changed
         run: |

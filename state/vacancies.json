@@ -105,6 +105,26 @@
       "total": 95000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=029003504"
     },
+    "20_225_0:228040426": {
+      "access": [
+        "都営三田線「高島平」駅 徒歩2～11分",
+        "都営三田線「新高島平」駅 徒歩4～22分"
+      ],
+      "area": 33.0,
+      "commonfee": 4200,
+      "danchi_id": "20_225_0",
+      "danchi_name": "高島平",
+      "floor": 4,
+      "floor_all": 11,
+      "group": "東京23区:119",
+      "key": "20_225_0:228040426",
+      "layout": "1DK",
+      "rent": 68200,
+      "room_id": "228040426",
+      "room_name": "2-28-4号棟426号室",
+      "total": 72400,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=228040426"
+    },
     "20_225_0:233050205": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -247,26 +267,6 @@
       "room_name": "2号棟403号室",
       "total": 133400,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000020403"
-    },
-    "20_674_0:000011003": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス13分 徒歩1～2分",
-        "東京メトロ南北線「王子神谷」駅 徒歩19～20分"
-      ],
-      "area": 52.0,
-      "commonfee": 7600,
-      "danchi_id": "20_674_0",
-      "danchi_name": "ハートアイランド新田一番街",
-      "floor": 10,
-      "floor_all": 11,
-      "group": "東京23区:121",
-      "key": "20_674_0:000011003",
-      "layout": "1LDK",
-      "rent": 119600,
-      "room_id": "000011003",
-      "room_name": "1号棟1003号室",
-      "total": 127200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000011003"
     },
     "20_705_0:000010905": {
       "access": [

@@ -85,26 +85,6 @@
       "total": 112200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000011201"
     },
-    "20_216_0:029003504": {
-      "access": [
-        "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
-        "東武伊勢崎線「西新井」駅バス9分 徒歩2～6分"
-      ],
-      "area": 52.0,
-      "commonfee": 3300,
-      "danchi_id": "20_216_0",
-      "danchi_name": "江北六丁目",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_216_0:029003504",
-      "layout": "3DK",
-      "rent": 91700,
-      "room_id": "029003504",
-      "room_name": "29-3号棟504号室",
-      "total": 95000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=029003504"
-    },
     "20_225_0:228040426": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -185,27 +165,6 @@
       "room_name": "1号棟740号室",
       "total": 121200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010740"
-    },
-    "20_334_0:000020304": {
-      "access": [
-        "JR常磐線「北千住」駅バス5分 徒歩5～6分",
-        "東京メトロ千代田線「町屋」駅バス6分 徒歩5～6分",
-        "日暮里舎人ライナー「足立小台」駅 徒歩18分"
-      ],
-      "area": 63.0,
-      "commonfee": 5000,
-      "danchi_id": "20_334_0",
-      "danchi_name": "リバーサイド桜木",
-      "floor": 3,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_334_0:000020304",
-      "layout": "2LDK",
-      "rent": 119600,
-      "room_id": "000020304",
-      "room_name": "2号棟304号室",
-      "total": 124600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3340_room.html?JKSS=000020304"
     },
     "20_502_0:000050907": {
       "access": [

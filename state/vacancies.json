@@ -64,27 +64,6 @@
       "total": 86470,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1600_room.html?JKSS=000006408"
     },
-    "20_178_0:000011201": {
-      "access": [
-        "都営新宿線「西大島」駅 徒歩5～10分",
-        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
-        "都営新宿線「大島」駅 徒歩7～12分"
-      ],
-      "area": 54.0,
-      "commonfee": 3900,
-      "danchi_id": "20_178_0",
-      "danchi_name": "大島四丁目",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_178_0:000011201",
-      "layout": "2DK",
-      "rent": 108300,
-      "room_id": "000011201",
-      "room_name": "1号棟1201号室",
-      "total": 112200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000011201"
-    },
     "20_225_0:233050205": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -124,26 +103,6 @@
       "room_name": "2-33-5号棟210号室",
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
-    },
-    "20_232_0:000091027": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
-      ],
-      "area": 33.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 10,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000091027",
-      "layout": "1DK",
-      "rent": 70800,
-      "room_id": "000091027",
-      "room_name": "9号棟1027号室",
-      "total": 74100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000091027"
     },
     "20_277_0:000010203": {
       "access": [

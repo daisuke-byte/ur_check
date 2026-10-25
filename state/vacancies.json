@@ -145,6 +145,27 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
     },
+    "20_277_0:000010203": {
+      "access": [
+        "都営新宿線「篠崎」駅 徒歩17～19分",
+        "都営新宿線「篠崎」駅バス5分 徒歩2～3分",
+        "JR総武線「小岩」駅バス24分 徒歩2～3分"
+      ],
+      "area": 48.0,
+      "commonfee": 4900,
+      "danchi_id": "20_277_0",
+      "danchi_name": "エステート篠崎（下篠崎町）",
+      "floor": 2,
+      "floor_all": 9,
+      "group": "東京23区:123",
+      "key": "20_277_0:000010203",
+      "layout": "2DK",
+      "rent": 93200,
+      "room_id": "000010203",
+      "room_name": "1号棟203号室",
+      "total": 98100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000010203"
+    },
     "20_295_0:000010740": {
       "access": [
         "JR常磐線「金町」駅 徒歩10～12分",
@@ -166,6 +187,27 @@
       "total": 121200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010740"
     },
+    "20_380_0:000010213": {
+      "access": [
+        "都営新宿線「一之江」駅 徒歩14分",
+        "JR総武線「新小岩」駅バス19分 徒歩3分",
+        "東京メトロ東西線「葛西」駅バス14分 徒歩3分"
+      ],
+      "area": 41.0,
+      "commonfee": 5000,
+      "danchi_id": "20_380_0",
+      "danchi_name": "エステート一之江（エステート松江）",
+      "floor": 2,
+      "floor_all": 5,
+      "group": "東京23区:123",
+      "key": "20_380_0:000010213",
+      "layout": "1DK",
+      "rent": 84900,
+      "room_id": "000010213",
+      "room_name": "1号棟213号室",
+      "total": 89900,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3800_room.html?JKSS=000010213"
+    },
     "20_502_0:000050907": {
       "access": [
         "JR総武線快速「新小岩」駅 徒歩9～11分",
@@ -185,6 +227,27 @@
       "room_name": "5号棟907号室",
       "total": 123200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000050907"
+    },
+    "20_544_0:000070803": {
+      "access": [
+        "小田急小田原線「千歳船橋」駅 徒歩11～15分",
+        "小田急小田原線「経堂」駅 徒歩11～19分",
+        "京王線「八幡山」駅バス4～5分 徒歩5～9分"
+      ],
+      "area": 52.0,
+      "commonfee": 4200,
+      "danchi_id": "20_544_0",
+      "danchi_name": "フレール西経堂",
+      "floor": 8,
+      "floor_all": 10,
+      "group": "東京23区:112",
+      "key": "20_544_0:000070803",
+      "layout": "1LDK",
+      "rent": 181300,
+      "room_id": "000070803",
+      "room_name": "7号棟803号室",
+      "total": 185500,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000070803"
     },
     "20_578_0:000C00105": {
       "access": [

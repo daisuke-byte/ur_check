@@ -125,27 +125,6 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
     },
-    "20_255_0:000010712": {
-      "access": [
-        "東武亀戸線「東あずま」駅 徒歩3～7分",
-        "JR総武線・東武亀戸線「亀戸」駅 徒歩17～19分",
-        "JR総武線・東武亀戸線「亀戸」駅バス3分 徒歩5～10分"
-      ],
-      "area": 49.0,
-      "commonfee": 3100,
-      "danchi_id": "20_255_0",
-      "danchi_name": "立花一丁目",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:107",
-      "key": "20_255_0:000010712",
-      "layout": "1LDK",
-      "rent": 129800,
-      "room_id": "000010712",
-      "room_name": "1号棟712号室",
-      "total": 132900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2550_room.html?JKSS=000010712"
-    },
     "20_277_0:000010203": {
       "access": [
         "都営新宿線「篠崎」駅 徒歩17～19分",

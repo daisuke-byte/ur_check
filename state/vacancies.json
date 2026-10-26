@@ -5,6 +5,26 @@
     "東京23区"
   ],
   "vacancies": {
+    "20_117_0:000080501": {
+      "access": [
+        "東武伊勢崎線「竹ノ塚」駅バス9～15分 徒歩2～8分",
+        "東武伊勢崎線「谷塚」駅 徒歩17～24分"
+      ],
+      "area": 51.0,
+      "commonfee": 4500,
+      "danchi_id": "20_117_0",
+      "danchi_name": "花畑",
+      "floor": 5,
+      "floor_all": 8,
+      "group": "東京23区:121",
+      "key": "20_117_0:000080501",
+      "layout": "2LDK",
+      "rent": 84800,
+      "room_id": "000080501",
+      "room_name": "80号棟501号室",
+      "total": 89300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1170_room.html?JKSS=000080501"
+    },
     "20_130_0:000007505": {
       "access": [
         "東武伊勢崎線「竹ノ塚」駅 徒歩11～16分",
@@ -26,24 +46,24 @@
       "total": 76100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1300_room.html?JKSS=000007505"
     },
-    "20_131_0:000003301": {
+    "20_131_0:000017501": {
       "access": [
         "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
       ],
-      "area": 41.0,
+      "area": 39.0,
       "commonfee": 4800,
       "danchi_id": "20_131_0",
       "danchi_name": "竹の塚第二",
-      "floor": 3,
-      "floor_all": 4,
+      "floor": 5,
+      "floor_all": 5,
       "group": "東京23区:121",
-      "key": "20_131_0:000003301",
-      "layout": "2DK",
-      "rent": 81800,
-      "room_id": "000003301",
-      "room_name": "3号棟301号室",
-      "total": 86600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000003301"
+      "key": "20_131_0:000017501",
+      "layout": "1LDK",
+      "rent": 79200,
+      "room_id": "000017501",
+      "room_name": "17号棟501号室",
+      "total": 84000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
     },
     "20_160_0:000006408": {
       "access": [
@@ -63,6 +83,26 @@
       "room_name": "6号棟408号室",
       "total": 86470,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1600_room.html?JKSS=000006408"
+    },
+    "20_216_0:029003504": {
+      "access": [
+        "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
+        "東武伊勢崎線「西新井」駅バス9分 徒歩2～6分"
+      ],
+      "area": 52.0,
+      "commonfee": 3300,
+      "danchi_id": "20_216_0",
+      "danchi_name": "江北六丁目",
+      "floor": 5,
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_216_0:029003504",
+      "layout": "3DK",
+      "rent": 91700,
+      "room_id": "029003504",
+      "room_name": "29-3号棟504号室",
+      "total": 95000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=029003504"
     },
     "20_225_0:233050205": {
       "access": [
@@ -144,6 +184,27 @@
       "room_name": "1号棟203号室",
       "total": 98100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000010203"
+    },
+    "20_277_0:000020701": {
+      "access": [
+        "都営新宿線「篠崎」駅 徒歩17～19分",
+        "都営新宿線「篠崎」駅バス5分 徒歩2～3分",
+        "JR総武線「小岩」駅バス24分 徒歩2～3分"
+      ],
+      "area": 48.0,
+      "commonfee": 4900,
+      "danchi_id": "20_277_0",
+      "danchi_name": "エステート篠崎（下篠崎町）",
+      "floor": 7,
+      "floor_all": 9,
+      "group": "東京23区:123",
+      "key": "20_277_0:000020701",
+      "layout": "2DK",
+      "rent": 90200,
+      "room_id": "000020701",
+      "room_name": "2号棟701号室",
+      "total": 95100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000020701"
     },
     "20_578_0:000C00105": {
       "access": [

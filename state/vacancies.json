@@ -65,25 +65,6 @@
       "total": 84000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
     },
-    "20_160_0:000006408": {
-      "access": [
-        "東武伊勢崎線「西新井」駅 徒歩8～13分"
-      ],
-      "area": 40.0,
-      "commonfee": 4270,
-      "danchi_id": "20_160_0",
-      "danchi_name": "栗原",
-      "floor": 4,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_160_0:000006408",
-      "layout": "2DK",
-      "rent": 82200,
-      "room_id": "000006408",
-      "room_name": "6号棟408号室",
-      "total": 86470,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1600_room.html?JKSS=000006408"
-    },
     "20_216_0:029003504": {
       "access": [
         "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
@@ -144,25 +125,26 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
     },
-    "20_232_0:000091027": {
+    "20_255_0:000010712": {
       "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
+        "東武亀戸線「東あずま」駅 徒歩3～7分",
+        "JR総武線・東武亀戸線「亀戸」駅 徒歩17～19分",
+        "JR総武線・東武亀戸線「亀戸」駅バス3分 徒歩5～10分"
       ],
-      "area": 33.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 10,
+      "area": 49.0,
+      "commonfee": 3100,
+      "danchi_id": "20_255_0",
+      "danchi_name": "立花一丁目",
+      "floor": 7,
       "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000091027",
-      "layout": "1DK",
-      "rent": 70800,
-      "room_id": "000091027",
-      "room_name": "9号棟1027号室",
-      "total": 74100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000091027"
+      "group": "東京23区:107",
+      "key": "20_255_0:000010712",
+      "layout": "1LDK",
+      "rent": 129800,
+      "room_id": "000010712",
+      "room_name": "1号棟712号室",
+      "total": 132900,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2550_room.html?JKSS=000010712"
     },
     "20_277_0:000010203": {
       "access": [
@@ -205,6 +187,27 @@
       "room_name": "2号棟701号室",
       "total": 95100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000020701"
+    },
+    "20_355_0:003140404": {
+      "access": [
+        "りんかい線「品川シーサイド」駅 徒歩11～13分",
+        "東京モノレール「大井競馬場前」駅 徒歩13～16分",
+        "JR京浜東北・根岸線「大井町」駅バス14～15分 徒歩2～5分"
+      ],
+      "area": 84.0,
+      "commonfee": 2800,
+      "danchi_id": "20_355_0",
+      "danchi_name": "品川八潮パークタウン 潮路北第二ハイツ",
+      "floor": 4,
+      "floor_all": 4,
+      "group": "東京23区:109",
+      "key": "20_355_0:003140404",
+      "layout": "3LDK",
+      "rent": 167000,
+      "room_id": "003140404",
+      "room_name": "3-14号棟404号室",
+      "total": 169800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550_room.html?JKSS=003140404"
     },
     "20_578_0:000C00105": {
       "access": [

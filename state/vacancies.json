@@ -188,26 +188,6 @@
       "total": 169800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550_room.html?JKSS=003140404"
     },
-    "20_578_0:000C00105": {
-      "access": [
-        "京王線「千歳烏山」駅バス4分 徒歩2～4分",
-        "京王線「仙川」駅 徒歩15～18分"
-      ],
-      "area": 45.0,
-      "commonfee": 8100,
-      "danchi_id": "20_578_0",
-      "danchi_name": "シティコート世田谷給田",
-      "floor": 1,
-      "floor_all": 10,
-      "group": "東京23区:112",
-      "key": "20_578_0:000C00105",
-      "layout": "1DK",
-      "rent": 131800,
-      "room_id": "000C00105",
-      "room_name": "C号棟105号室",
-      "total": 139900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5780_room.html?JKSS=000C00105"
-    },
     "20_642_0:000020403": {
       "access": [
         "東武大師線「大師前」駅 徒歩9～12分",

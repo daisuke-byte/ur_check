@@ -107,42 +107,25 @@
       "total": 136800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5780_room.html?JKSS=000C00108"
     },
-    "30_512_0:000112608": {
+    "20_674_0:000011003": {
       "access": [
-        "JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分"
+        "JR京浜東北・根岸線「王子」駅バス13分 徒歩1～2分",
+        "東京メトロ南北線「王子神谷」駅 徒歩19～20分"
       ],
-      "area": 54.0,
-      "commonfee": 7100,
-      "danchi_id": "30_512_0",
-      "danchi_name": "浦安マリナイースト２１望海の街",
-      "floor": 26,
-      "floor_all": 28,
-      "key": "30_512_0:000112608",
+      "area": 52.0,
+      "commonfee": 7600,
+      "danchi_id": "20_674_0",
+      "danchi_name": "ハートアイランド新田一番街",
+      "floor": 10,
+      "floor_all": 11,
+      "group": "東京23区:121",
+      "key": "20_674_0:000011003",
       "layout": "1LDK",
-      "rent": 164300,
-      "room_id": "000112608",
-      "room_name": "11号棟2608号室",
-      "total": 171400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000112608"
-    },
-    "30_584_0:000100308": {
-      "access": [
-        "JR京葉線「舞浜」駅 徒歩17～20分",
-        "JR京葉線「新浦安」駅 徒歩28～30分"
-      ],
-      "area": 63.0,
-      "commonfee": 4600,
-      "danchi_id": "30_584_0",
-      "danchi_name": "コンフォール舞浜（コンフォール浦安弁天）",
-      "floor": 3,
-      "floor_all": 5,
-      "key": "30_584_0:000100308",
-      "layout": "2LDK",
-      "rent": 134900,
-      "room_id": "000100308",
-      "room_name": "10号棟308号室",
-      "total": 139500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5840_room.html?JKSS=000100308"
+      "rent": 119600,
+      "room_id": "000011003",
+      "room_name": "1号棟1003号室",
+      "total": 127200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000011003"
     }
   }
 }

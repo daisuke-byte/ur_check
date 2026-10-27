@@ -5,25 +5,6 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_131_0:000017501": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
-      ],
-      "area": 39.0,
-      "commonfee": 4800,
-      "danchi_id": "20_131_0",
-      "danchi_name": "竹の塚第二",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_131_0:000017501",
-      "layout": "1LDK",
-      "rent": 79200,
-      "room_id": "000017501",
-      "room_name": "17号棟501号室",
-      "total": 84000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
-    },
     "20_225_0:233050210": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -85,27 +66,6 @@
       "room_name": "2号棟701号室",
       "total": 95100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000020701"
-    },
-    "20_455_0:309012303": {
-      "access": [
-        "都営大江戸線「光が丘」駅 徒歩2～3分",
-        "東京メトロ有楽町線「地下鉄成増」駅バス9～10分 徒歩3～4分",
-        "東武東上線「成増」駅バス10～11分 徒歩3～4分"
-      ],
-      "area": 63.0,
-      "commonfee": 6700,
-      "danchi_id": "20_455_0",
-      "danchi_name": "光が丘パークタウン 大通り中央",
-      "floor": 23,
-      "floor_all": 25,
-      "group": "東京23区:120",
-      "key": "20_455_0:309012303",
-      "layout": "2LDK",
-      "rent": 172800,
-      "room_id": "309012303",
-      "room_name": "3-9-1号棟2303号室",
-      "total": 179500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4550_room.html?JKSS=309012303"
     },
     "20_502_0:000051005": {
       "access": [

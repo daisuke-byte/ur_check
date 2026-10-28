@@ -25,6 +25,26 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
     },
+    "20_232_0:000061219": {
+      "access": [
+        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
+        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
+      ],
+      "area": 48.0,
+      "commonfee": 3300,
+      "danchi_id": "20_232_0",
+      "danchi_name": "豊島五丁目",
+      "floor": 12,
+      "floor_all": 14,
+      "group": "東京23区:117",
+      "key": "20_232_0:000061219",
+      "layout": "2DK",
+      "rent": 91500,
+      "room_id": "000061219",
+      "room_name": "6号棟1219号室",
+      "total": 94800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000061219"
+    },
     "20_277_0:000010203": {
       "access": [
         "都営新宿線「篠崎」駅 徒歩17～19分",
@@ -106,6 +126,27 @@
       "room_name": "C号棟108号室",
       "total": 136800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5780_room.html?JKSS=000C00108"
+    },
+    "20_582_0:000070813": {
+      "access": [
+        "東京メトロ東西線「木場」駅 徒歩14～19分",
+        "JR京葉線「潮見」駅 徒歩15～20分",
+        "JR総武線・東京メトロ半蔵門線「錦糸町」駅バス19分 徒歩4～9分"
+      ],
+      "area": 54.0,
+      "commonfee": 4000,
+      "danchi_id": "20_582_0",
+      "danchi_name": "ヴェッセル木場南",
+      "floor": 8,
+      "floor_all": 9,
+      "group": "東京23区:108",
+      "key": "20_582_0:000070813",
+      "layout": "1LDK",
+      "rent": 135800,
+      "room_id": "000070813",
+      "room_name": "7号棟813号室",
+      "total": 139800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000070813"
     },
     "20_674_0:000011003": {
       "access": [

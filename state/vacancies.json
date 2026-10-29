@@ -5,6 +5,26 @@
     "東京23区"
   ],
   "vacancies": {
+    "20_216_0:030004201": {
+      "access": [
+        "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
+        "東武伊勢崎線「西新井」駅バス9分 徒歩2～6分"
+      ],
+      "area": 43.0,
+      "commonfee": 3300,
+      "danchi_id": "20_216_0",
+      "danchi_name": "江北六丁目",
+      "floor": 2,
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_216_0:030004201",
+      "layout": "2DK",
+      "rent": 76300,
+      "room_id": "030004201",
+      "room_name": "30-4号棟201号室",
+      "total": 79600,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=030004201"
+    },
     "20_225_0:233050210": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -167,6 +187,44 @@
       "room_name": "1号棟1003号室",
       "total": 127200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000011003"
+    },
+    "20_705_0:000020405": {
+      "access": [
+        "日暮里舎人ライナー「谷在家」駅 徒歩12～14分",
+        "東武大師線「大師前」駅 徒歩16～18分"
+      ],
+      "area": 62.0,
+      "commonfee": 5100,
+      "danchi_id": "20_705_0",
+      "danchi_name": "フレール西新井中央公園",
+      "floor": 4,
+      "floor_all": 9,
+      "group": "東京23区:121",
+      "key": "20_705_0:000020405",
+      "layout": "2LDK",
+      "rent": 136900,
+      "room_id": "000020405",
+      "room_name": "2号棟405号室",
+      "total": 142000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7050_room.html?JKSS=000020405"
+    },
+    "30_583_0:000110602": {
+      "access": [
+        "JR京葉線「新浦安」駅 徒歩25～29分 又はバス10分 徒歩2～4分"
+      ],
+      "area": 78.0,
+      "commonfee": 8000,
+      "danchi_id": "30_583_0",
+      "danchi_name": "浦安マリナイースト２１海園の街",
+      "floor": 6,
+      "floor_all": 9,
+      "key": "30_583_0:000110602",
+      "layout": "2LDK",
+      "rent": 176400,
+      "room_id": "000110602",
+      "room_name": "11号棟602号室",
+      "total": 184400,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5830_room.html?JKSS=000110602"
     }
   }
 }

@@ -5,25 +5,6 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_131_0:000017501": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
-      ],
-      "area": 39.0,
-      "commonfee": 4800,
-      "danchi_id": "20_131_0",
-      "danchi_name": "竹の塚第二",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_131_0:000017501",
-      "layout": "1LDK",
-      "rent": 79200,
-      "room_id": "000017501",
-      "room_name": "17号棟501号室",
-      "total": 84000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
-    },
     "20_225_0:233050210": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -145,24 +126,6 @@
       "room_name": "102号室",
       "total": 139600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000102"
-    },
-    "30_312_0:000100102": {
-      "access": [
-        "JR京葉線「新浦安」駅 徒歩6～12分"
-      ],
-      "area": 65.0,
-      "commonfee": 4400,
-      "danchi_id": "30_312_0",
-      "danchi_name": "浦安ニューシティ美浜西エステート",
-      "floor": 1,
-      "floor_all": 11,
-      "key": "30_312_0:000100102",
-      "layout": "2LDK",
-      "rent": 135600,
-      "room_id": "000100102",
-      "room_name": "10号棟102号室",
-      "total": 140000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3120_room.html?JKSS=000100102"
     },
     "30_512_0:000112608": {
       "access": [

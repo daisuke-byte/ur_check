@@ -5,26 +5,24 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_178_0:000020507": {
+    "20_131_0:000017501": {
       "access": [
-        "都営新宿線「西大島」駅 徒歩5～10分",
-        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
-        "都営新宿線「大島」駅 徒歩7～12分"
+        "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
       ],
-      "area": 48.0,
-      "commonfee": 3900,
-      "danchi_id": "20_178_0",
-      "danchi_name": "大島四丁目",
+      "area": 39.0,
+      "commonfee": 4800,
+      "danchi_id": "20_131_0",
+      "danchi_name": "竹の塚第二",
       "floor": 5,
-      "floor_all": 9,
-      "group": "東京23区:108",
-      "key": "20_178_0:000020507",
-      "layout": "2LDK",
-      "rent": 105600,
-      "room_id": "000020507",
-      "room_name": "2号棟507号室",
-      "total": 109500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000020507"
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_131_0:000017501",
+      "layout": "1LDK",
+      "rent": 79200,
+      "room_id": "000017501",
+      "room_name": "17号棟501号室",
+      "total": 84000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
     },
     "20_216_0:030004201": {
       "access": [
@@ -206,27 +204,6 @@
       "total": 127200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3080_room.html?JKSS=000020415"
     },
-    "20_346_0:000020305": {
-      "access": [
-        "都営新宿線「東大島」駅 徒歩3～4分",
-        "都営新宿線「大島」駅 徒歩10～12分",
-        "JR総武線・東武亀戸線「亀戸」駅バス11分 徒歩2～3分"
-      ],
-      "area": 66.0,
-      "commonfee": 4000,
-      "danchi_id": "20_346_0",
-      "danchi_name": "東大島駅前ハイツ",
-      "floor": 3,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_346_0:000020305",
-      "layout": "3DK",
-      "rent": 177100,
-      "room_id": "000020305",
-      "room_name": "2号棟305号室",
-      "total": 181100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3460_room.html?JKSS=000020305"
-    },
     "20_347_0:000140213": {
       "access": [
         "東京メトロ有楽町線「地下鉄赤塚」駅 徒歩6～9分",
@@ -266,26 +243,6 @@
       "room_name": "704号室",
       "total": 141100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4010_room.html?JKSS=000000704"
-    },
-    "20_492_0:000001202": {
-      "access": [
-        "JR山手線ほか「田町」駅 徒歩13分",
-        "京急本線「泉岳寺」駅から徒歩11分"
-      ],
-      "area": 57.0,
-      "commonfee": 3600,
-      "danchi_id": "20_492_0",
-      "danchi_name": "デュプレ芝浦",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:103",
-      "key": "20_492_0:000001202",
-      "layout": "2DK",
-      "rent": 174700,
-      "room_id": "000001202",
-      "room_name": "1202号室",
-      "total": 178300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4920_room.html?JKSS=000001202"
     },
     "20_525_0:000061001": {
       "access": [

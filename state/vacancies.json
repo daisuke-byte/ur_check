@@ -65,25 +65,25 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
     },
-    "20_232_0:000010210": {
+    "20_240_0:000001404": {
       "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
+        "東急田園都市線「三軒茶屋」駅 徒歩7分",
+        "東急世田谷線「三軒茶屋」駅 徒歩7分"
       ],
-      "area": 48.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 2,
+      "area": 32.0,
+      "commonfee": 3800,
+      "danchi_id": "20_240_0",
+      "danchi_name": "上馬二丁目",
+      "floor": 14,
       "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000010210",
-      "layout": "1LDK",
-      "rent": 89800,
-      "room_id": "000010210",
-      "room_name": "1号棟210号室",
-      "total": 93100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000010210"
+      "group": "東京23区:112",
+      "key": "20_240_0:000001404",
+      "layout": "1DK",
+      "rent": 104500,
+      "room_id": "000001404",
+      "room_name": "1404号室",
+      "total": 108300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2400_room.html?JKSS=000001404"
     },
     "20_277_0:000010203": {
       "access": [
@@ -148,67 +148,6 @@
       "total": 88700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000030107"
     },
-    "20_280_0:000011327": {
-      "access": [
-        "JR埼京線「北赤羽」駅 徒歩6～7分"
-      ],
-      "area": 49.0,
-      "commonfee": 4000,
-      "danchi_id": "20_280_0",
-      "danchi_name": "赤羽北二丁目",
-      "floor": 13,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_280_0:000011327",
-      "layout": "1LDK",
-      "rent": 120800,
-      "room_id": "000011327",
-      "room_name": "1号棟1327号室",
-      "total": 124800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2800_room.html?JKSS=000011327"
-    },
-    "20_294_0:000000544": {
-      "access": [
-        "東京メトロ東西線「南砂町」駅 徒歩17分",
-        "都営新宿線「大島」駅バス7分 徒歩4分",
-        "JR総武線・東武亀戸線「亀戸」駅バス13分 徒歩4分"
-      ],
-      "area": 50.0,
-      "commonfee": 3000,
-      "danchi_id": "20_294_0",
-      "danchi_name": "北砂七丁目",
-      "floor": 5,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_294_0:000000544",
-      "layout": "2DK",
-      "rent": 102800,
-      "room_id": "000000544",
-      "room_name": "544号室",
-      "total": 105800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2940_room.html?JKSS=000000544"
-    },
-    "20_295_0:000010231": {
-      "access": [
-        "JR常磐線「金町」駅 徒歩10～12分",
-        "京成金町線「京成金町」駅 徒歩12～14分",
-        "JR常磐線「金町」駅バス3分 徒歩1分"
-      ],
-      "area": 63.0,
-      "commonfee": 4400,
-      "danchi_id": "20_295_0",
-      "danchi_name": "金町第二",
-      "floor": 2,
-      "floor_all": 11,
-      "group": "東京23区:122",
-      "key": "20_295_0:000010231",
-      "layout": "3DK",
-      "rent": 116100,
-      "room_id": "000010231",
-      "room_name": "1号棟231号室",
-      "total": 120500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010231"
-    },
     "20_295_0:000010242": {
       "access": [
         "JR常磐線「金町」駅 徒歩10～12分",
@@ -249,6 +188,27 @@
       "room_name": "3号棟504号室",
       "total": 115500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3420_room.html?JKSS=000030504"
+    },
+    "20_346_0:000020305": {
+      "access": [
+        "都営新宿線「東大島」駅 徒歩3～4分",
+        "都営新宿線「大島」駅 徒歩10～12分",
+        "JR総武線・東武亀戸線「亀戸」駅バス11分 徒歩2～3分"
+      ],
+      "area": 66.0,
+      "commonfee": 4000,
+      "danchi_id": "20_346_0",
+      "danchi_name": "東大島駅前ハイツ",
+      "floor": 3,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_346_0:000020305",
+      "layout": "3DK",
+      "rent": 177100,
+      "room_id": "000020305",
+      "room_name": "2号棟305号室",
+      "total": 181100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3460_room.html?JKSS=000020305"
     },
     "20_448_1:000080504": {
       "access": [
@@ -330,26 +290,6 @@
       "room_name": "1011号室",
       "total": 183000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000001011"
-    },
-    "20_681_0:000130701": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス12分 徒歩1～2分",
-        "東京メトロ南北線「王子神谷」駅 徒歩20～21分"
-      ],
-      "area": 81.0,
-      "commonfee": 7400,
-      "danchi_id": "20_681_0",
-      "danchi_name": "ハートアイランド新田二番街",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:121",
-      "key": "20_681_0:000130701",
-      "layout": "2LDK",
-      "rent": 175200,
-      "room_id": "000130701",
-      "room_name": "13号棟701号室",
-      "total": 182600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6810_room.html?JKSS=000130701"
     },
     "30_512_0:000112608": {
       "access": [

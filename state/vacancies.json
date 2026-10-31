@@ -65,26 +65,6 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050210"
     },
-    "20_240_0:000001404": {
-      "access": [
-        "東急田園都市線「三軒茶屋」駅 徒歩7分",
-        "東急世田谷線「三軒茶屋」駅 徒歩7分"
-      ],
-      "area": 32.0,
-      "commonfee": 3800,
-      "danchi_id": "20_240_0",
-      "danchi_name": "上馬二丁目",
-      "floor": 14,
-      "floor_all": 14,
-      "group": "東京23区:112",
-      "key": "20_240_0:000001404",
-      "layout": "1DK",
-      "rent": 104500,
-      "room_id": "000001404",
-      "room_name": "1404号室",
-      "total": 108300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2400_room.html?JKSS=000001404"
-    },
     "20_277_0:000010203": {
       "access": [
         "都営新宿線「篠崎」駅 徒歩17～19分",
@@ -209,6 +189,25 @@
       "room_name": "2号棟305号室",
       "total": 181100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3460_room.html?JKSS=000020305"
+    },
+    "20_401_0:000000704": {
+      "access": [
+        "JR埼京線「北赤羽」駅 徒歩5分"
+      ],
+      "area": 58.0,
+      "commonfee": 4600,
+      "danchi_id": "20_401_0",
+      "danchi_name": "赤羽北二丁目ハイツ",
+      "floor": 7,
+      "floor_all": 14,
+      "group": "東京23区:117",
+      "key": "20_401_0:000000704",
+      "layout": "3DK",
+      "rent": 136500,
+      "room_id": "000000704",
+      "room_name": "704号室",
+      "total": 141100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4010_room.html?JKSS=000000704"
     },
     "20_448_1:000080504": {
       "access": [

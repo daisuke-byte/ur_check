@@ -24,27 +24,6 @@
       "total": 84000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
     },
-    "20_164_0:000011016": {
-      "access": [
-        "JR常磐線「北千住」駅 徒歩5～7分",
-        "東武伊勢崎線「北千住」駅 徒歩5～7分",
-        "つくばエクスプレス「北千住」駅 徒歩5～7分"
-      ],
-      "area": 52.0,
-      "commonfee": 4200,
-      "danchi_id": "20_164_0",
-      "danchi_name": "日の出町",
-      "floor": 10,
-      "floor_all": 11,
-      "group": "東京23区:121",
-      "key": "20_164_0:000011016",
-      "layout": "2DK",
-      "rent": 131500,
-      "room_id": "000011016",
-      "room_name": "1号棟1016号室",
-      "total": 135700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000011016"
-    },
     "20_225_0:233050210": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -148,47 +127,6 @@
       "room_name": "1号棟242号室",
       "total": 120800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010242"
-    },
-    "20_342_0:000030504": {
-      "access": [
-        "JR総武線快速「新小岩」駅 徒歩17～19分 またはバス4分 徒歩2～3分",
-        "JR総武線「新小岩」駅 徒歩17～19分"
-      ],
-      "area": 68.0,
-      "commonfee": 3000,
-      "danchi_id": "20_342_0",
-      "danchi_name": "エステート東新小岩",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:122",
-      "key": "20_342_0:000030504",
-      "layout": "3LDK",
-      "rent": 112500,
-      "room_id": "000030504",
-      "room_name": "3号棟504号室",
-      "total": 115500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3420_room.html?JKSS=000030504"
-    },
-    "20_346_0:000020305": {
-      "access": [
-        "都営新宿線「東大島」駅 徒歩3～4分",
-        "都営新宿線「大島」駅 徒歩10～12分",
-        "JR総武線・東武亀戸線「亀戸」駅バス11分 徒歩2～3分"
-      ],
-      "area": 66.0,
-      "commonfee": 4000,
-      "danchi_id": "20_346_0",
-      "danchi_name": "東大島駅前ハイツ",
-      "floor": 3,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_346_0:000020305",
-      "layout": "3DK",
-      "rent": 177100,
-      "room_id": "000020305",
-      "room_name": "2号棟305号室",
-      "total": 181100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3460_room.html?JKSS=000020305"
     },
     "20_401_0:000000704": {
       "access": [

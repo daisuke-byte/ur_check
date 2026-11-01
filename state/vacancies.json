@@ -128,6 +128,48 @@
       "total": 120800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010242"
     },
+    "20_347_0:000130206": {
+      "access": [
+        "東京メトロ有楽町線「地下鉄赤塚」駅 徒歩6～9分",
+        "東武東上線「下赤塚」駅 徒歩9～12分",
+        "都営大江戸線「光が丘」駅 徒歩23～25分"
+      ],
+      "area": 61.0,
+      "commonfee": 6200,
+      "danchi_id": "20_347_0",
+      "danchi_name": "光が丘パークタウン ゆりの木通り北",
+      "floor": 2,
+      "floor_all": 9,
+      "group": "東京23区:119",
+      "key": "20_347_0:000130206",
+      "layout": "2LDK",
+      "rent": 137000,
+      "room_id": "000130206",
+      "room_name": "13号棟206号室",
+      "total": 143200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3470_room.html?JKSS=000130206"
+    },
+    "20_364_0:006380304": {
+      "access": [
+        "東京モノレ－ル「大井競馬場前」駅 徒歩6～10分",
+        "JR京浜東北・根岸線「大井町」駅バス17分 徒歩3～4分",
+        "JR山手線「品川」駅バス21分 徒歩3～4分"
+      ],
+      "area": 69.0,
+      "commonfee": 4020,
+      "danchi_id": "20_364_0",
+      "danchi_name": "品川八潮パークタウン 潮路南第一ハイツ",
+      "floor": 3,
+      "floor_all": 14,
+      "group": "東京23区:109",
+      "key": "20_364_0:006380304",
+      "layout": "2LDK",
+      "rent": 163900,
+      "room_id": "006380304",
+      "room_name": "6-38号棟304号室",
+      "total": 167920,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3640_room.html?JKSS=006380304"
+    },
     "20_401_0:000000704": {
       "access": [
         "JR埼京線「北赤羽」駅 徒歩5分"
@@ -227,6 +269,26 @@
       "room_name": "1011号室",
       "total": 183000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000001011"
+    },
+    "20_671_0:000150303": {
+      "access": [
+        "京王線「芦花公園」駅 徒歩5～8分",
+        "京王線「千歳烏山」駅 徒歩6～9分"
+      ],
+      "area": 57.0,
+      "commonfee": 6300,
+      "danchi_id": "20_671_0",
+      "danchi_name": "芦花公園",
+      "floor": 3,
+      "floor_all": 6,
+      "group": "東京23区:112",
+      "key": "20_671_0:000150303",
+      "layout": "1LDK",
+      "rent": 191200,
+      "room_id": "000150303",
+      "room_name": "15号棟303号室",
+      "total": 197500,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6710_room.html?JKSS=000150303"
     },
     "30_512_0:000112608": {
       "access": [

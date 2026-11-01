@@ -211,25 +211,6 @@
       "total": 129100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3800_room.html?JKSS=000010403"
     },
-    "20_401_0:000000704": {
-      "access": [
-        "JR埼京線「北赤羽」駅 徒歩5分"
-      ],
-      "area": 58.0,
-      "commonfee": 4600,
-      "danchi_id": "20_401_0",
-      "danchi_name": "赤羽北二丁目ハイツ",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_401_0:000000704",
-      "layout": "3DK",
-      "rent": 136500,
-      "room_id": "000000704",
-      "room_name": "704号室",
-      "total": 141100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4010_room.html?JKSS=000000704"
-    },
     "20_448_1:000080504": {
       "access": [
         "JR常磐線「亀有」駅 徒歩13～17分",

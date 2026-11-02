@@ -170,6 +170,46 @@
       "total": 120800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010242"
     },
+    "20_308_0:000020809": {
+      "access": [
+        "JR埼京線「赤羽」駅 徒歩6～7分",
+        "東京メトロ南北線「志茂」駅 徒歩9～10分"
+      ],
+      "area": 54.0,
+      "commonfee": 2800,
+      "danchi_id": "20_308_0",
+      "danchi_name": "赤羽南一丁目",
+      "floor": 8,
+      "floor_all": 8,
+      "group": "東京23区:117",
+      "key": "20_308_0:000020809",
+      "layout": "1LDK",
+      "rent": 124400,
+      "room_id": "000020809",
+      "room_name": "2号棟809号室",
+      "total": 127200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3080_room.html?JKSS=000020809"
+    },
+    "20_342_0:000030504": {
+      "access": [
+        "JR総武線快速「新小岩」駅 徒歩17～19分 またはバス4分 徒歩2～3分",
+        "JR総武線「新小岩」駅 徒歩17～19分"
+      ],
+      "area": 68.0,
+      "commonfee": 3000,
+      "danchi_id": "20_342_0",
+      "danchi_name": "エステート東新小岩",
+      "floor": 5,
+      "floor_all": 5,
+      "group": "東京23区:122",
+      "key": "20_342_0:000030504",
+      "layout": "3LDK",
+      "rent": 112500,
+      "room_id": "000030504",
+      "room_name": "3号棟504号室",
+      "total": 115500,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3420_room.html?JKSS=000030504"
+    },
     "20_380_0:000010213": {
       "access": [
         "都営新宿線「一之江」駅 徒歩14分",
@@ -232,27 +272,6 @@
       "room_name": "12号棟603号室",
       "total": 144400,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000120603"
-    },
-    "20_582_0:000070813": {
-      "access": [
-        "東京メトロ東西線「木場」駅 徒歩14～19分",
-        "JR京葉線「潮見」駅 徒歩15～20分",
-        "JR総武線・東京メトロ半蔵門線「錦糸町」駅バス19分 徒歩4～9分"
-      ],
-      "area": 54.0,
-      "commonfee": 4000,
-      "danchi_id": "20_582_0",
-      "danchi_name": "ヴェッセル木場南",
-      "floor": 8,
-      "floor_all": 9,
-      "group": "東京23区:108",
-      "key": "20_582_0:000070813",
-      "layout": "1LDK",
-      "rent": 135800,
-      "room_id": "000070813",
-      "room_name": "7号棟813号室",
-      "total": 139800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000070813"
     },
     "20_600_0:000011314": {
       "access": [

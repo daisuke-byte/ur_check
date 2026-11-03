@@ -46,6 +46,27 @@
       "total": 88200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=626011120"
     },
+    "20_234_0:708020234": {
+      "access": [
+        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
+        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
+        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
+      ],
+      "area": 45.0,
+      "commonfee": 3600,
+      "danchi_id": "20_234_0",
+      "danchi_name": "希望ヶ丘",
+      "floor": 2,
+      "floor_all": 14,
+      "group": "東京23区:112",
+      "key": "20_234_0:708020234",
+      "layout": "1K",
+      "rent": 111400,
+      "room_id": "708020234",
+      "room_name": "7-8-2号棟234号室",
+      "total": 115000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708020234"
+    },
     "20_255_0:000030409": {
       "access": [
         "東武亀戸線「東あずま」駅 徒歩3～7分",
@@ -108,27 +129,6 @@
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
     },
-    "20_347_0:000010711": {
-      "access": [
-        "東京メトロ有楽町線「地下鉄赤塚」駅 徒歩6～9分",
-        "東武東上線「下赤塚」駅 徒歩9～12分",
-        "都営大江戸線「光が丘」駅 徒歩23～25分"
-      ],
-      "area": 63.0,
-      "commonfee": 6200,
-      "danchi_id": "20_347_0",
-      "danchi_name": "光が丘パークタウン ゆりの木通り北",
-      "floor": 7,
-      "floor_all": 8,
-      "group": "東京23区:119",
-      "key": "20_347_0:000010711",
-      "layout": "3DK",
-      "rent": 140600,
-      "room_id": "000010711",
-      "room_name": "1号棟711号室",
-      "total": 146800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3470_room.html?JKSS=000010711"
-    },
     "20_448_1:000080504": {
       "access": [
         "JR常磐線「亀有」駅 徒歩13～17分",
@@ -149,6 +149,25 @@
       "room_name": "8号棟504号室",
       "total": 105700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000080504"
+    },
+    "20_517_0:000000221": {
+      "access": [
+        "京王線「千歳烏山」駅 徒歩13分"
+      ],
+      "area": 66.0,
+      "commonfee": 8800,
+      "danchi_id": "20_517_0",
+      "danchi_name": "シティハイツ烏山",
+      "floor": 2,
+      "floor_all": 5,
+      "group": "東京23区:112",
+      "key": "20_517_0:000000221",
+      "layout": "2LDK",
+      "rent": 158500,
+      "room_id": "000000221",
+      "room_name": "221号室",
+      "total": 167300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5170_room.html?JKSS=000000221"
     }
   }
 }

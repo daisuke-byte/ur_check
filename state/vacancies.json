@@ -5,66 +5,6 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_117_0:000061506": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅バス9～15分 徒歩2～8分",
-        "東武伊勢崎線「谷塚」駅 徒歩17～24分"
-      ],
-      "area": 43.0,
-      "commonfee": 4500,
-      "danchi_id": "20_117_0",
-      "danchi_name": "花畑",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_117_0:000061506",
-      "layout": "2DK",
-      "rent": 66400,
-      "room_id": "000061506",
-      "room_name": "61号棟506号室",
-      "total": 70900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1170_room.html?JKSS=000061506"
-    },
-    "20_131_0:000017501": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
-      ],
-      "area": 39.0,
-      "commonfee": 4800,
-      "danchi_id": "20_131_0",
-      "danchi_name": "竹の塚第二",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_131_0:000017501",
-      "layout": "1LDK",
-      "rent": 79200,
-      "room_id": "000017501",
-      "room_name": "17号棟501号室",
-      "total": 84000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017501"
-    },
-    "20_178_0:000011201": {
-      "access": [
-        "都営新宿線「西大島」駅 徒歩5～10分",
-        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
-        "都営新宿線「大島」駅 徒歩7～12分"
-      ],
-      "area": 54.0,
-      "commonfee": 3900,
-      "danchi_id": "20_178_0",
-      "danchi_name": "大島四丁目",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_178_0:000011201",
-      "layout": "2DK",
-      "rent": 108300,
-      "room_id": "000011201",
-      "room_name": "1号棟1201号室",
-      "total": 112200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000011201"
-    },
     "20_225_0:233050205": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -210,26 +150,6 @@
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
     },
-    "20_308_0:000020809": {
-      "access": [
-        "JR埼京線「赤羽」駅 徒歩6～7分",
-        "東京メトロ南北線「志茂」駅 徒歩9～10分"
-      ],
-      "area": 54.0,
-      "commonfee": 2800,
-      "danchi_id": "20_308_0",
-      "danchi_name": "赤羽南一丁目",
-      "floor": 8,
-      "floor_all": 8,
-      "group": "東京23区:117",
-      "key": "20_308_0:000020809",
-      "layout": "1LDK",
-      "rent": 124400,
-      "room_id": "000020809",
-      "room_name": "2号棟809号室",
-      "total": 127200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3080_room.html?JKSS=000020809"
-    },
     "20_342_0:000030504": {
       "access": [
         "JR総武線快速「新小岩」駅 徒歩17～19分 またはバス4分 徒歩2～3分",
@@ -249,6 +169,25 @@
       "room_name": "3号棟504号室",
       "total": 115500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3420_room.html?JKSS=000030504"
+    },
+    "20_401_0:000000704": {
+      "access": [
+        "JR埼京線「北赤羽」駅 徒歩5分"
+      ],
+      "area": 58.0,
+      "commonfee": 4600,
+      "danchi_id": "20_401_0",
+      "danchi_name": "赤羽北二丁目ハイツ",
+      "floor": 7,
+      "floor_all": 14,
+      "group": "東京23区:117",
+      "key": "20_401_0:000000704",
+      "layout": "3DK",
+      "rent": 136500,
+      "room_id": "000000704",
+      "room_name": "704号室",
+      "total": 141100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4010_room.html?JKSS=000000704"
     },
     "20_448_1:000080504": {
       "access": [

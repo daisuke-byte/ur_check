@@ -129,25 +129,6 @@
       "total": 146800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3470_room.html?JKSS=000010711"
     },
-    "20_401_0:000000704": {
-      "access": [
-        "JR埼京線「北赤羽」駅 徒歩5分"
-      ],
-      "area": 58.0,
-      "commonfee": 4600,
-      "danchi_id": "20_401_0",
-      "danchi_name": "赤羽北二丁目ハイツ",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_401_0:000000704",
-      "layout": "3DK",
-      "rent": 136500,
-      "room_id": "000000704",
-      "room_name": "704号室",
-      "total": 141100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4010_room.html?JKSS=000000704"
-    },
     "20_448_1:000080504": {
       "access": [
         "JR常磐線「亀有」駅 徒歩13～17分",
@@ -168,65 +149,6 @@
       "room_name": "8号棟504号室",
       "total": 105700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000080504"
-    },
-    "20_448_1:000120603": {
-      "access": [
-        "JR常磐線「亀有」駅 徒歩13～17分",
-        "JR常磐線「亀有」駅バス5分 徒歩2～4分",
-        "京成本線「青砥」駅 徒歩20～22分"
-      ],
-      "area": 66.0,
-      "commonfee": 6600,
-      "danchi_id": "20_448_1",
-      "danchi_name": "すまいる亀有",
-      "floor": 6,
-      "floor_all": 14,
-      "group": "東京23区:122",
-      "key": "20_448_1:000120603",
-      "layout": "3LDK",
-      "rent": 137800,
-      "room_id": "000120603",
-      "room_name": "12号棟603号室",
-      "total": 144400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000120603"
-    },
-    "20_600_0:000011314": {
-      "access": [
-        "東京メトロ南北線「王子神谷」駅 徒歩6～7分",
-        "JR京浜東北・根岸線「東十条」駅 徒歩16～17分"
-      ],
-      "area": 53.0,
-      "commonfee": 4200,
-      "danchi_id": "20_600_0",
-      "danchi_name": "フレーシェル王子神谷",
-      "floor": 13,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_600_0:000011314",
-      "layout": "1LDK",
-      "rent": 161600,
-      "room_id": "000011314",
-      "room_name": "1号棟1314号室",
-      "total": 165800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000011314"
-    },
-    "30_312_0:000040804": {
-      "access": [
-        "JR京葉線「新浦安」駅 徒歩6～12分"
-      ],
-      "area": 65.0,
-      "commonfee": 4400,
-      "danchi_id": "30_312_0",
-      "danchi_name": "浦安ニューシティ美浜西エステート",
-      "floor": 8,
-      "floor_all": 11,
-      "key": "30_312_0:000040804",
-      "layout": "1LDK",
-      "rent": 144100,
-      "room_id": "000040804",
-      "room_name": "4号棟804号室",
-      "total": 148500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3120_room.html?JKSS=000040804"
     }
   }
 }

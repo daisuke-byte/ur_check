@@ -46,27 +46,6 @@
       "total": 88200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=626011120"
     },
-    "20_234_0:708010908": {
-      "access": [
-        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
-        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
-        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
-      ],
-      "area": 31.0,
-      "commonfee": 3600,
-      "danchi_id": "20_234_0",
-      "danchi_name": "希望ヶ丘",
-      "floor": 9,
-      "floor_all": 11,
-      "group": "東京23区:112",
-      "key": "20_234_0:708010908",
-      "layout": "1K",
-      "rent": 84600,
-      "room_id": "708010908",
-      "room_name": "7-8-1号棟908号室",
-      "total": 88200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010908"
-    },
     "20_255_0:000030409": {
       "access": [
         "東武亀戸線「東あずま」駅 徒歩3～7分",
@@ -109,27 +88,6 @@
       "total": 98100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000010203"
     },
-    "20_295_0:000010242": {
-      "access": [
-        "JR常磐線「金町」駅 徒歩10～12分",
-        "京成金町線「京成金町」駅 徒歩12～14分",
-        "JR常磐線「金町」駅バス3分 徒歩1分"
-      ],
-      "area": 63.0,
-      "commonfee": 4400,
-      "danchi_id": "20_295_0",
-      "danchi_name": "金町第二",
-      "floor": 2,
-      "floor_all": 11,
-      "group": "東京23区:122",
-      "key": "20_295_0:000010242",
-      "layout": "3DK",
-      "rent": 116400,
-      "room_id": "000010242",
-      "room_name": "1号棟242号室",
-      "total": 120800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000010242"
-    },
     "20_307_0:000020510": {
       "access": [
         "JR常磐線「金町」駅 徒歩8～9分",
@@ -150,25 +108,26 @@
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
     },
-    "20_342_0:000030504": {
+    "20_347_0:000010711": {
       "access": [
-        "JR総武線快速「新小岩」駅 徒歩17～19分 またはバス4分 徒歩2～3分",
-        "JR総武線「新小岩」駅 徒歩17～19分"
+        "東京メトロ有楽町線「地下鉄赤塚」駅 徒歩6～9分",
+        "東武東上線「下赤塚」駅 徒歩9～12分",
+        "都営大江戸線「光が丘」駅 徒歩23～25分"
       ],
-      "area": 68.0,
-      "commonfee": 3000,
-      "danchi_id": "20_342_0",
-      "danchi_name": "エステート東新小岩",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:122",
-      "key": "20_342_0:000030504",
-      "layout": "3LDK",
-      "rent": 112500,
-      "room_id": "000030504",
-      "room_name": "3号棟504号室",
-      "total": 115500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3420_room.html?JKSS=000030504"
+      "area": 63.0,
+      "commonfee": 6200,
+      "danchi_id": "20_347_0",
+      "danchi_name": "光が丘パークタウン ゆりの木通り北",
+      "floor": 7,
+      "floor_all": 8,
+      "group": "東京23区:119",
+      "key": "20_347_0:000010711",
+      "layout": "3DK",
+      "rent": 140600,
+      "room_id": "000010711",
+      "room_name": "1号棟711号室",
+      "total": 146800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3470_room.html?JKSS=000010711"
     },
     "20_401_0:000000704": {
       "access": [
@@ -250,26 +209,6 @@
       "room_name": "1号棟1314号室",
       "total": 165800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000011314"
-    },
-    "20_700_0:000010110": {
-      "access": [
-        "JR常磐線「綾瀬」駅 徒歩12～16分",
-        "東京メトロ千代田線「綾瀬」駅 徒歩12～16分"
-      ],
-      "area": 50.0,
-      "commonfee": 5500,
-      "danchi_id": "20_700_0",
-      "danchi_name": "パークタウン東綾瀬",
-      "floor": 1,
-      "floor_all": 10,
-      "group": "東京23区:121",
-      "key": "20_700_0:000010110",
-      "layout": "2DK",
-      "rent": 128200,
-      "room_id": "000010110",
-      "room_name": "1号棟110号室",
-      "total": 133700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000010110"
     },
     "30_312_0:000040804": {
       "access": [

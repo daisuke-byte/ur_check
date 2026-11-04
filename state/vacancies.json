@@ -168,6 +168,27 @@
       "room_name": "221号室",
       "total": 167300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5170_room.html?JKSS=000000221"
+    },
+    "20_646_0:000000407": {
+      "access": [
+        "JR京葉線「潮見」駅 徒歩2分",
+        "東京メトロ東西線「東陽町」駅バス11分 徒歩2分",
+        "東京メトロ有楽町線「辰巳」駅 徒歩24分"
+      ],
+      "area": 62.0,
+      "commonfee": 6800,
+      "danchi_id": "20_646_0",
+      "danchi_name": "潮見駅前プラザ二番街",
+      "floor": 4,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_646_0:000000407",
+      "layout": "2LDK",
+      "rent": 174400,
+      "room_id": "000000407",
+      "room_name": "407号室",
+      "total": 181200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000407"
     }
   }
 }

@@ -45,6 +45,27 @@
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
     },
+    "20_364_0:006390802": {
+      "access": [
+        "東京モノレ－ル「大井競馬場前」駅 徒歩6～10分",
+        "JR京浜東北・根岸線「大井町」駅バス17分 徒歩3～4分",
+        "JR山手線「品川」駅バス21分 徒歩3～4分"
+      ],
+      "area": 69.0,
+      "commonfee": 4020,
+      "danchi_id": "20_364_0",
+      "danchi_name": "品川八潮パークタウン 潮路南第一ハイツ",
+      "floor": 8,
+      "floor_all": 14,
+      "group": "東京23区:109",
+      "key": "20_364_0:006390802",
+      "layout": "3DK",
+      "rent": 152300,
+      "room_id": "006390802",
+      "room_name": "6-39号棟802号室",
+      "total": 156320,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3640_room.html?JKSS=006390802"
+    },
     "20_525_0:000010205": {
       "access": [
         "西武池袋線「大泉学園」駅 徒歩15～19分",
@@ -65,6 +86,26 @@
       "room_name": "1号棟205号室",
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
+    },
+    "20_554_0:000030101": {
+      "access": [
+        "京急本線「平和島」駅 徒歩7～8分",
+        "東京モノレ－ル「流通センター」駅 徒歩19～20分"
+      ],
+      "area": 51.0,
+      "commonfee": 11400,
+      "danchi_id": "20_554_0",
+      "danchi_name": "アミティ大森東",
+      "floor": 1,
+      "floor_all": 5,
+      "group": "東京23区:111",
+      "key": "20_554_0:000030101",
+      "layout": "1LDK",
+      "rent": 137000,
+      "room_id": "000030101",
+      "room_name": "3号棟101号室",
+      "total": 148400,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5540_room.html?JKSS=000030101"
     },
     "20_582_0:000050504": {
       "access": [

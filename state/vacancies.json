@@ -87,6 +87,27 @@
       "total": 175000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000050504"
     },
+    "20_584_0:021100209": {
+      "access": [
+        "京成押上線「四ツ木」駅 徒歩11～12分",
+        "京成押上線「京成立石」駅 徒歩12～13分",
+        "JR総武線快速「新小岩」駅バス10分 徒歩2～4分"
+      ],
+      "area": 68.0,
+      "commonfee": 4300,
+      "danchi_id": "20_584_0",
+      "danchi_name": "アクシス東四つ木",
+      "floor": 2,
+      "floor_all": 14,
+      "group": "東京23区:122",
+      "key": "20_584_0:021100209",
+      "layout": "2LDK",
+      "rent": 137800,
+      "room_id": "021100209",
+      "room_name": "21-10号棟209号室",
+      "total": 142100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5840_room.html?JKSS=021100209"
+    },
     "20_631_0:000001011": {
       "access": [
         "都営三田線ほか「春日」駅 徒歩5分",

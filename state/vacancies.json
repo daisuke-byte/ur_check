@@ -45,25 +45,25 @@
       "total": 120300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000010509"
     },
-    "20_216_0:030014503": {
+    "20_165_0:000010324": {
       "access": [
-        "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
-        "東武伊勢崎線「西新井」駅バス9分 徒歩2～6分"
+        "JR常磐線「金町」駅 徒歩3～5分",
+        "京成金町線「京成金町」駅 徒歩4～7分"
       ],
-      "area": 41.0,
-      "commonfee": 3300,
-      "danchi_id": "20_216_0",
-      "danchi_name": "江北六丁目",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_216_0:030014503",
-      "layout": "2DK",
-      "rent": 73900,
-      "room_id": "030014503",
-      "room_name": "30-14号棟503号室",
-      "total": 77200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=030014503"
+      "area": 51.0,
+      "commonfee": 3500,
+      "danchi_id": "20_165_0",
+      "danchi_name": "金町駅前",
+      "floor": 3,
+      "floor_all": 14,
+      "group": "東京23区:122",
+      "key": "20_165_0:000010324",
+      "layout": "3K",
+      "rent": 94300,
+      "room_id": "000010324",
+      "room_name": "1号棟324号室",
+      "total": 97800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000010324"
     },
     "20_225_0:233050205": {
       "access": [
@@ -166,6 +166,26 @@
       "room_name": "2号棟510号室",
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
+    },
+    "20_333_0:000000801": {
+      "access": [
+        "JR京浜東北線ほか「蒲田」駅 徒歩5分",
+        "京急本線「京急蒲田」駅 徒歩10分"
+      ],
+      "area": 65.0,
+      "commonfee": 4000,
+      "danchi_id": "20_333_0",
+      "danchi_name": "蒲田駅前ハイツ",
+      "floor": 8,
+      "floor_all": 13,
+      "group": "東京23区:111",
+      "key": "20_333_0:000000801",
+      "layout": "2LDK",
+      "rent": 193900,
+      "room_id": "000000801",
+      "room_name": "801号室",
+      "total": 197900,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3330_room.html?JKSS=000000801"
     },
     "20_525_0:000010205": {
       "access": [
@@ -290,27 +310,6 @@
       "room_name": "12号棟206号室",
       "total": 157100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6810_room.html?JKSS=000120206"
-    },
-    "20_694_0:000080706": {
-      "access": [
-        "JR埼京線「赤羽」駅 徒歩6～11分",
-        "東京メトロ南北線「赤羽岩淵」駅 徒歩11～17分",
-        "JR京浜東北・根岸線「赤羽」駅 徒歩6～11分"
-      ],
-      "area": 43.0,
-      "commonfee": 4200,
-      "danchi_id": "20_694_0",
-      "danchi_name": "ヌーヴェル赤羽台",
-      "floor": 7,
-      "floor_all": 10,
-      "group": "東京23区:117",
-      "key": "20_694_0:000080706",
-      "layout": "1DK",
-      "rent": 136700,
-      "room_id": "000080706",
-      "room_name": "8号棟706号室",
-      "total": 140900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6940_room.html?JKSS=000080706"
     },
     "30_312_0:000090808": {
       "access": [

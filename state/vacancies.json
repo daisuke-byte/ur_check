@@ -24,6 +24,47 @@
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000027210"
     },
+    "20_164_0:000010509": {
+      "access": [
+        "JR常磐線「北千住」駅 徒歩5～7分",
+        "東武伊勢崎線「北千住」駅 徒歩5～7分",
+        "つくばエクスプレス「北千住」駅 徒歩5～7分"
+      ],
+      "area": 43.0,
+      "commonfee": 4200,
+      "danchi_id": "20_164_0",
+      "danchi_name": "日の出町",
+      "floor": 5,
+      "floor_all": 11,
+      "group": "東京23区:121",
+      "key": "20_164_0:000010509",
+      "layout": "1LDK",
+      "rent": 116100,
+      "room_id": "000010509",
+      "room_name": "1号棟509号室",
+      "total": 120300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000010509"
+    },
+    "20_216_0:030014503": {
+      "access": [
+        "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
+        "東武伊勢崎線「西新井」駅バス9分 徒歩2～6分"
+      ],
+      "area": 41.0,
+      "commonfee": 3300,
+      "danchi_id": "20_216_0",
+      "danchi_name": "江北六丁目",
+      "floor": 5,
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_216_0:030014503",
+      "layout": "2DK",
+      "rent": 73900,
+      "room_id": "030014503",
+      "room_name": "30-14号棟503号室",
+      "total": 77200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=030014503"
+    },
     "20_225_0:233050205": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -64,25 +105,47 @@
       "total": 69200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000091005"
     },
-    "20_267_0:000031006": {
+    "20_234_0:708010809": {
       "access": [
-        "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
-        "JR京浜東北・根岸線「東十条」駅 徒歩10～15分"
+        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
+        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
+        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
       ],
-      "area": 46.0,
-      "commonfee": 4200,
-      "danchi_id": "20_267_0",
-      "danchi_name": "王子五丁目",
-      "floor": 10,
+      "area": 31.0,
+      "commonfee": 3600,
+      "danchi_id": "20_234_0",
+      "danchi_name": "希望ヶ丘",
+      "floor": 8,
       "floor_all": 11,
-      "group": "東京23区:117",
-      "key": "20_267_0:000031006",
-      "layout": "2DK",
-      "rent": 110000,
-      "room_id": "000031006",
-      "room_name": "3号棟1006号室",
-      "total": 114200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2670_room.html?JKSS=000031006"
+      "group": "東京23区:112",
+      "key": "20_234_0:708010809",
+      "layout": "1K",
+      "rent": 84600,
+      "room_id": "708010809",
+      "room_name": "7-8-1号棟809号室",
+      "total": 88200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010809"
+    },
+    "20_234_0:708010908": {
+      "access": [
+        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
+        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
+        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
+      ],
+      "area": 31.0,
+      "commonfee": 3600,
+      "danchi_id": "20_234_0",
+      "danchi_name": "希望ヶ丘",
+      "floor": 9,
+      "floor_all": 11,
+      "group": "東京23区:112",
+      "key": "20_234_0:708010908",
+      "layout": "1K",
+      "rent": 84600,
+      "room_id": "708010908",
+      "room_name": "7-8-1号棟908号室",
+      "total": 88200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010908"
     },
     "20_307_0:000020510": {
       "access": [
@@ -104,27 +167,6 @@
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
     },
-    "20_364_0:006390802": {
-      "access": [
-        "東京モノレ－ル「大井競馬場前」駅 徒歩6～10分",
-        "JR京浜東北・根岸線「大井町」駅バス17分 徒歩3～4分",
-        "JR山手線「品川」駅バス21分 徒歩3～4分"
-      ],
-      "area": 69.0,
-      "commonfee": 4020,
-      "danchi_id": "20_364_0",
-      "danchi_name": "品川八潮パークタウン 潮路南第一ハイツ",
-      "floor": 8,
-      "floor_all": 14,
-      "group": "東京23区:109",
-      "key": "20_364_0:006390802",
-      "layout": "3DK",
-      "rent": 152300,
-      "room_id": "006390802",
-      "room_name": "6-39号棟802号室",
-      "total": 156320,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3640_room.html?JKSS=006390802"
-    },
     "20_525_0:000010205": {
       "access": [
         "西武池袋線「大泉学園」駅 徒歩15～19分",
@@ -145,26 +187,6 @@
       "room_name": "1号棟205号室",
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
-    },
-    "20_554_0:000030101": {
-      "access": [
-        "京急本線「平和島」駅 徒歩7～8分",
-        "東京モノレ－ル「流通センター」駅 徒歩19～20分"
-      ],
-      "area": 51.0,
-      "commonfee": 11400,
-      "danchi_id": "20_554_0",
-      "danchi_name": "アミティ大森東",
-      "floor": 1,
-      "floor_all": 5,
-      "group": "東京23区:111",
-      "key": "20_554_0:000030101",
-      "layout": "1LDK",
-      "rent": 137000,
-      "room_id": "000030101",
-      "room_name": "3号棟101号室",
-      "total": 148400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5540_room.html?JKSS=000030101"
     },
     "20_582_0:000050504": {
       "access": [
@@ -227,6 +249,27 @@
       "room_name": "1011号室",
       "total": 183000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000001011"
+    },
+    "20_646_0:000000102": {
+      "access": [
+        "JR京葉線「潮見」駅 徒歩2分",
+        "東京メトロ東西線「東陽町」駅バス11分 徒歩2分",
+        "東京メトロ有楽町線「辰巳」駅 徒歩24分"
+      ],
+      "area": 50.0,
+      "commonfee": 6800,
+      "danchi_id": "20_646_0",
+      "danchi_name": "潮見駅前プラザ二番街",
+      "floor": 1,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_646_0:000000102",
+      "layout": "1LDK",
+      "rent": 132800,
+      "room_id": "000000102",
+      "room_name": "102号室",
+      "total": 139600,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000102"
     },
     "20_681_0:000120206": {
       "access": [

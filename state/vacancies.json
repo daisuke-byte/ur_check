@@ -24,27 +24,6 @@
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000027210"
     },
-    "20_164_0:000010509": {
-      "access": [
-        "JR常磐線「北千住」駅 徒歩5～7分",
-        "東武伊勢崎線「北千住」駅 徒歩5～7分",
-        "つくばエクスプレス「北千住」駅 徒歩5～7分"
-      ],
-      "area": 43.0,
-      "commonfee": 4200,
-      "danchi_id": "20_164_0",
-      "danchi_name": "日の出町",
-      "floor": 5,
-      "floor_all": 11,
-      "group": "東京23区:121",
-      "key": "20_164_0:000010509",
-      "layout": "1LDK",
-      "rent": 116100,
-      "room_id": "000010509",
-      "room_name": "1号棟509号室",
-      "total": 120300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000010509"
-    },
     "20_165_0:000010324": {
       "access": [
         "JR常磐線「金町」駅 徒歩3～5分",
@@ -167,26 +146,6 @@
       "total": 101700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3070_room.html?JKSS=000020510"
     },
-    "20_333_0:000000801": {
-      "access": [
-        "JR京浜東北線ほか「蒲田」駅 徒歩5分",
-        "京急本線「京急蒲田」駅 徒歩10分"
-      ],
-      "area": 65.0,
-      "commonfee": 4000,
-      "danchi_id": "20_333_0",
-      "danchi_name": "蒲田駅前ハイツ",
-      "floor": 8,
-      "floor_all": 13,
-      "group": "東京23区:111",
-      "key": "20_333_0:000000801",
-      "layout": "2LDK",
-      "rent": 193900,
-      "room_id": "000000801",
-      "room_name": "801号室",
-      "total": 197900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3330_room.html?JKSS=000000801"
-    },
     "20_525_0:000010205": {
       "access": [
         "西武池袋線「大泉学園」駅 徒歩15～19分",
@@ -208,68 +167,6 @@
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
     },
-    "20_582_0:000050504": {
-      "access": [
-        "東京メトロ東西線「木場」駅 徒歩14～19分",
-        "JR京葉線「潮見」駅 徒歩15～20分",
-        "JR総武線・東京メトロ半蔵門線「錦糸町」駅バス19分 徒歩4～9分"
-      ],
-      "area": 64.0,
-      "commonfee": 4000,
-      "danchi_id": "20_582_0",
-      "danchi_name": "ヴェッセル木場南",
-      "floor": 5,
-      "floor_all": 9,
-      "group": "東京23区:108",
-      "key": "20_582_0:000050504",
-      "layout": "2LDK",
-      "rent": 171000,
-      "room_id": "000050504",
-      "room_name": "5号棟504号室",
-      "total": 175000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000050504"
-    },
-    "20_584_0:021100209": {
-      "access": [
-        "京成押上線「四ツ木」駅 徒歩11～12分",
-        "京成押上線「京成立石」駅 徒歩12～13分",
-        "JR総武線快速「新小岩」駅バス10分 徒歩2～4分"
-      ],
-      "area": 68.0,
-      "commonfee": 4300,
-      "danchi_id": "20_584_0",
-      "danchi_name": "アクシス東四つ木",
-      "floor": 2,
-      "floor_all": 14,
-      "group": "東京23区:122",
-      "key": "20_584_0:021100209",
-      "layout": "2LDK",
-      "rent": 137800,
-      "room_id": "021100209",
-      "room_name": "21-10号棟209号室",
-      "total": 142100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5840_room.html?JKSS=021100209"
-    },
-    "20_631_0:000001011": {
-      "access": [
-        "都営三田線ほか「春日」駅 徒歩5分",
-        "東京メトロ丸ノ内線ほか「後楽園」駅 徒歩7分"
-      ],
-      "area": 42.0,
-      "commonfee": 5300,
-      "danchi_id": "20_631_0",
-      "danchi_name": "エルアージュ小石川",
-      "floor": 10,
-      "floor_all": 20,
-      "group": "東京23区:105",
-      "key": "20_631_0:000001011",
-      "layout": "1DK",
-      "rent": 177700,
-      "room_id": "000001011",
-      "room_name": "1011号室",
-      "total": 183000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000001011"
-    },
     "20_646_0:000000102": {
       "access": [
         "JR京葉線「潮見」駅 徒歩2分",
@@ -290,26 +187,6 @@
       "room_name": "102号室",
       "total": 139600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000102"
-    },
-    "20_681_0:000120206": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス12分 徒歩1～2分",
-        "東京メトロ南北線「王子神谷」駅 徒歩20～21分"
-      ],
-      "area": 69.0,
-      "commonfee": 7400,
-      "danchi_id": "20_681_0",
-      "danchi_name": "ハートアイランド新田二番街",
-      "floor": 2,
-      "floor_all": 6,
-      "group": "東京23区:121",
-      "key": "20_681_0:000120206",
-      "layout": "2LDK",
-      "rent": 149700,
-      "room_id": "000120206",
-      "room_name": "12号棟206号室",
-      "total": 157100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6810_room.html?JKSS=000120206"
     },
     "30_312_0:000090808": {
       "access": [

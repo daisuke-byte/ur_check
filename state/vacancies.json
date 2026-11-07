@@ -24,26 +24,6 @@
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000027210"
     },
-    "20_225_0:233050205": {
-      "access": [
-        "都営三田線「高島平」駅 徒歩2～11分",
-        "都営三田線「新高島平」駅 徒歩4～22分"
-      ],
-      "area": 46.0,
-      "commonfee": 4200,
-      "danchi_id": "20_225_0",
-      "danchi_name": "高島平",
-      "floor": 2,
-      "floor_all": 12,
-      "group": "東京23区:119",
-      "key": "20_225_0:233050205",
-      "layout": "2DK",
-      "rent": 96000,
-      "room_id": "233050205",
-      "room_name": "2-33-5号棟205号室",
-      "total": 100200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205"
-    },
     "20_267_0:000031006": {
       "access": [
         "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
@@ -84,66 +64,6 @@
       "room_name": "1号棟305号室",
       "total": 174200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3200_room.html?JKSS=000010305"
-    },
-    "20_346_0:000020305": {
-      "access": [
-        "都営新宿線「東大島」駅 徒歩3～4分",
-        "都営新宿線「大島」駅 徒歩10～12分",
-        "JR総武線・東武亀戸線「亀戸」駅バス11分 徒歩2～3分"
-      ],
-      "area": 66.0,
-      "commonfee": 4000,
-      "danchi_id": "20_346_0",
-      "danchi_name": "東大島駅前ハイツ",
-      "floor": 3,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_346_0:000020305",
-      "layout": "3DK",
-      "rent": 177100,
-      "room_id": "000020305",
-      "room_name": "2号棟305号室",
-      "total": 181100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3460_room.html?JKSS=000020305"
-    },
-    "20_401_0:000001410": {
-      "access": [
-        "JR埼京線「北赤羽」駅 徒歩5分"
-      ],
-      "area": 58.0,
-      "commonfee": 4600,
-      "danchi_id": "20_401_0",
-      "danchi_name": "赤羽北二丁目ハイツ",
-      "floor": 14,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_401_0:000001410",
-      "layout": "3DK",
-      "rent": 138600,
-      "room_id": "000001410",
-      "room_name": "1410号室",
-      "total": 143200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4010_room.html?JKSS=000001410"
-    },
-    "20_492_0:000000705": {
-      "access": [
-        "JR山手線ほか「田町」駅 徒歩13分",
-        "京急本線「泉岳寺」駅から徒歩11分"
-      ],
-      "area": 33.0,
-      "commonfee": 3600,
-      "danchi_id": "20_492_0",
-      "danchi_name": "デュプレ芝浦",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:103",
-      "key": "20_492_0:000000705",
-      "layout": "1K",
-      "rent": 116800,
-      "room_id": "000000705",
-      "room_name": "705号室",
-      "total": 120400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4920_room.html?JKSS=000000705"
     },
     "20_525_0:000010205": {
       "access": [
@@ -187,26 +107,26 @@
       "total": 139800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000070813"
     },
-    "20_646_0:000000102": {
+    "20_642_0:000090203": {
       "access": [
-        "JR京葉線「潮見」駅 徒歩2分",
-        "東京メトロ東西線「東陽町」駅バス11分 徒歩2分",
-        "東京メトロ有楽町線「辰巳」駅 徒歩24分"
+        "東武大師線「大師前」駅 徒歩9～12分",
+        "日暮里舎人ライナー「西新井大師西」駅 徒歩14～16分",
+        "東武伊勢崎線「西新井」駅 徒歩16～19分"
       ],
-      "area": 50.0,
-      "commonfee": 6800,
-      "danchi_id": "20_646_0",
-      "danchi_name": "潮見駅前プラザ二番街",
-      "floor": 1,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_646_0:000000102",
-      "layout": "1LDK",
-      "rent": 132800,
-      "room_id": "000000102",
-      "room_name": "102号室",
-      "total": 139600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000102"
+      "area": 53.0,
+      "commonfee": 6600,
+      "danchi_id": "20_642_0",
+      "danchi_name": "フレール西新井第二",
+      "floor": 2,
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_642_0:000090203",
+      "layout": "1K",
+      "rent": 112100,
+      "room_id": "000090203",
+      "room_name": "9号棟203号室",
+      "total": 118700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000090203"
     },
     "30_312_0:000090808": {
       "access": [

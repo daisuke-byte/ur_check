@@ -1,5 +1,11 @@
 {
-  "failures": {},
+  "failures": {
+    "search:東京23区:117": {
+      "count": 1,
+      "last_error": "4回試しても取得できませんでした: HTTPSConnectionPool(host='chintai.r6.ur-net.go.jp', port=443): Read timed out. (read timeout=20.0)",
+      "notified": false
+    }
+  },
   "initialized": true,
   "initialized_areas": [
     "東京23区"

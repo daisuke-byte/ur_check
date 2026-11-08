@@ -5,27 +5,6 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_178_0:000020507": {
-      "access": [
-        "都営新宿線「西大島」駅 徒歩5～10分",
-        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
-        "都営新宿線「大島」駅 徒歩7～12分"
-      ],
-      "area": 48.0,
-      "commonfee": 3900,
-      "danchi_id": "20_178_0",
-      "danchi_name": "大島四丁目",
-      "floor": 5,
-      "floor_all": 9,
-      "group": "東京23区:108",
-      "key": "20_178_0:000020507",
-      "layout": "2LDK",
-      "rent": 105600,
-      "room_id": "000020507",
-      "room_name": "2号棟507号室",
-      "total": 109500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000020507"
-    },
     "20_232_0:000070737": {
       "access": [
         "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
@@ -67,47 +46,6 @@
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
     },
-    "20_535_1:000010801": {
-      "access": [
-        "東武東上線「東武練馬」駅 徒歩15～18分",
-        "東京メトロ有楽町線「平和台」駅 徒歩15～18分 またはバス5分 徒歩7～10分",
-        "東武東上線「上板橋」駅 徒歩15～17分"
-      ],
-      "area": 45.0,
-      "commonfee": 4600,
-      "danchi_id": "20_535_1",
-      "danchi_name": "にしき平和台",
-      "floor": 8,
-      "floor_all": 9,
-      "group": "東京23区:120",
-      "key": "20_535_1:000010801",
-      "layout": "2DK",
-      "rent": 115000,
-      "room_id": "000010801",
-      "room_name": "1号棟801号室",
-      "total": 119600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5351_room.html?JKSS=000010801"
-    },
-    "20_548_0:000000413": {
-      "access": [
-        "東急多摩川線「矢口渡」駅 徒歩6分",
-        "JR京浜東北線ほか「蒲田」駅 徒歩15分"
-      ],
-      "area": 46.0,
-      "commonfee": 3800,
-      "danchi_id": "20_548_0",
-      "danchi_name": "シャレール新蒲田",
-      "floor": 4,
-      "floor_all": 8,
-      "group": "東京23区:111",
-      "key": "20_548_0:000000413",
-      "layout": "1LDK",
-      "rent": 160900,
-      "room_id": "000000413",
-      "room_name": "413号室",
-      "total": 164700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5480_room.html?JKSS=000000413"
-    },
     "20_582_0:000070813": {
       "access": [
         "東京メトロ東西線「木場」駅 徒歩14～19分",
@@ -128,24 +66,6 @@
       "room_name": "7号棟813号室",
       "total": 139800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000070813"
-    },
-    "30_512_0:000112608": {
-      "access": [
-        "JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分"
-      ],
-      "area": 54.0,
-      "commonfee": 7100,
-      "danchi_id": "30_512_0",
-      "danchi_name": "浦安マリナイースト２１望海の街",
-      "floor": 26,
-      "floor_all": 28,
-      "key": "30_512_0:000112608",
-      "layout": "1LDK",
-      "rent": 164300,
-      "room_id": "000112608",
-      "room_name": "11号棟2608号室",
-      "total": 171400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000112608"
     }
   }
 }

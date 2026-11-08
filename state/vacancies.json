@@ -67,6 +67,26 @@
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
     },
+    "20_554_0:000010404": {
+      "access": [
+        "京急本線「平和島」駅 徒歩7～8分",
+        "東京モノレ－ル「流通センター」駅 徒歩19～20分"
+      ],
+      "area": 67.0,
+      "commonfee": 11400,
+      "danchi_id": "20_554_0",
+      "danchi_name": "アミティ大森東",
+      "floor": 4,
+      "floor_all": 4,
+      "group": "東京23区:111",
+      "key": "20_554_0:000010404",
+      "layout": "2LDK",
+      "rent": 180900,
+      "room_id": "000010404",
+      "room_name": "1号棟404号室",
+      "total": 192300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5540_room.html?JKSS=000010404"
+    },
     "20_582_0:000070813": {
       "access": [
         "東京メトロ東西線「木場」駅 徒歩14～19分",

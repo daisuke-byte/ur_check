@@ -5,68 +5,26 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_130_0:000032401": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩11～16分",
-        "東武伊勢崎線「竹ノ塚」駅バス2～3分 徒歩2～7分",
-        "JR常磐線「北千住」駅バス16～18分 徒歩1～5分"
-      ],
-      "area": 40.0,
-      "commonfee": 3500,
-      "danchi_id": "20_130_0",
-      "danchi_name": "竹の塚第一",
-      "floor": 4,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_130_0:000032401",
-      "layout": "2DK",
-      "rent": 82500,
-      "room_id": "000032401",
-      "room_name": "32号棟401号室",
-      "total": 86000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1300_room.html?JKSS=000032401"
-    },
-    "20_178_0:000020813": {
+    "20_178_0:000061230": {
       "access": [
         "都営新宿線「西大島」駅 徒歩5～10分",
         "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
         "都営新宿線「大島」駅 徒歩7～12分"
       ],
-      "area": 48.0,
+      "area": 50.0,
       "commonfee": 3900,
       "danchi_id": "20_178_0",
       "danchi_name": "大島四丁目",
-      "floor": 8,
-      "floor_all": 9,
-      "group": "東京23区:108",
-      "key": "20_178_0:000020813",
-      "layout": "2LDK",
-      "rent": 105600,
-      "room_id": "000020813",
-      "room_name": "2号棟813号室",
-      "total": 109500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000020813"
-    },
-    "20_448_1:000120603": {
-      "access": [
-        "JR常磐線「亀有」駅 徒歩13～17分",
-        "JR常磐線「亀有」駅バス5分 徒歩2～4分",
-        "京成本線「青砥」駅 徒歩20～22分"
-      ],
-      "area": 66.0,
-      "commonfee": 6600,
-      "danchi_id": "20_448_1",
-      "danchi_name": "すまいる亀有",
-      "floor": 6,
+      "floor": 12,
       "floor_all": 14,
-      "group": "東京23区:122",
-      "key": "20_448_1:000120603",
-      "layout": "3LDK",
-      "rent": 137800,
-      "room_id": "000120603",
-      "room_name": "12号棟603号室",
-      "total": 144400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000120603"
+      "group": "東京23区:108",
+      "key": "20_178_0:000061230",
+      "layout": "1LDK",
+      "rent": 103800,
+      "room_id": "000061230",
+      "room_name": "6号棟1230号室",
+      "total": 107700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000061230"
     },
     "20_525_0:000010205": {
       "access": [

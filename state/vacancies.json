@@ -5,26 +5,26 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_178_0:000061230": {
+    "20_455_0:309030501": {
       "access": [
-        "都営新宿線「西大島」駅 徒歩5～10分",
-        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
-        "都営新宿線「大島」駅 徒歩7～12分"
+        "都営大江戸線「光が丘」駅 徒歩2～3分",
+        "東京メトロ有楽町線「地下鉄成増」駅バス9～10分 徒歩3～4分",
+        "東武東上線「成増」駅バス10～11分 徒歩3～4分"
       ],
-      "area": 50.0,
-      "commonfee": 3900,
-      "danchi_id": "20_178_0",
-      "danchi_name": "大島四丁目",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_178_0:000061230",
-      "layout": "1LDK",
-      "rent": 103800,
-      "room_id": "000061230",
-      "room_name": "6号棟1230号室",
-      "total": 107700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000061230"
+      "area": 71.0,
+      "commonfee": 6700,
+      "danchi_id": "20_455_0",
+      "danchi_name": "光が丘パークタウン 大通り中央",
+      "floor": 5,
+      "floor_all": 30,
+      "group": "東京23区:120",
+      "key": "20_455_0:309030501",
+      "layout": "3LDK",
+      "rent": 186700,
+      "room_id": "309030501",
+      "room_name": "3-9-3号棟501号室",
+      "total": 193400,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4550_room.html?JKSS=309030501"
     },
     "20_525_0:000010205": {
       "access": [
@@ -46,26 +46,6 @@
       "room_name": "1号棟205号室",
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
-    },
-    "20_554_0:000010404": {
-      "access": [
-        "京急本線「平和島」駅 徒歩7～8分",
-        "東京モノレ－ル「流通センター」駅 徒歩19～20分"
-      ],
-      "area": 67.0,
-      "commonfee": 11400,
-      "danchi_id": "20_554_0",
-      "danchi_name": "アミティ大森東",
-      "floor": 4,
-      "floor_all": 4,
-      "group": "東京23区:111",
-      "key": "20_554_0:000010404",
-      "layout": "2LDK",
-      "rent": 180900,
-      "room_id": "000010404",
-      "room_name": "1号棟404号室",
-      "total": 192300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5540_room.html?JKSS=000010404"
     },
     "30_512_0:000112608": {
       "access": [

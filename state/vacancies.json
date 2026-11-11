@@ -129,6 +129,27 @@
       "total": 165800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000011314"
     },
+    "20_668_0:000050702": {
+      "access": [
+        "京成本線「青砥」駅 徒歩12～13分",
+        "京成本線「青砥」駅バス3分 徒歩1～3分",
+        "京成押上線「青砥」駅 徒歩12～13分"
+      ],
+      "area": 58.0,
+      "commonfee": 5900,
+      "danchi_id": "20_668_0",
+      "danchi_name": "青戸第二",
+      "floor": 7,
+      "floor_all": 14,
+      "group": "東京23区:122",
+      "key": "20_668_0:000050702",
+      "layout": "1LDK",
+      "rent": 130700,
+      "room_id": "000050702",
+      "room_name": "5号棟702号室",
+      "total": 136600,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6680_room.html?JKSS=000050702"
+    },
     "30_512_0:000112608": {
       "access": [
         "JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分"

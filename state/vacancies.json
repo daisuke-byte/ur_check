@@ -272,27 +272,6 @@
       "room_name": "519号室",
       "total": 165300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000519"
-    },
-    "20_694_0:000080706": {
-      "access": [
-        "JR埼京線「赤羽」駅 徒歩6～11分",
-        "東京メトロ南北線「赤羽岩淵」駅 徒歩11～17分",
-        "JR京浜東北・根岸線「赤羽」駅 徒歩6～11分"
-      ],
-      "area": 43.0,
-      "commonfee": 4200,
-      "danchi_id": "20_694_0",
-      "danchi_name": "ヌーヴェル赤羽台",
-      "floor": 7,
-      "floor_all": 10,
-      "group": "東京23区:117",
-      "key": "20_694_0:000080706",
-      "layout": "1DK",
-      "rent": 136700,
-      "room_id": "000080706",
-      "room_name": "8号棟706号室",
-      "total": 140900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6940_room.html?JKSS=000080706"
     }
   }
 }

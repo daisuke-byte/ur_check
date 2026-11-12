@@ -65,48 +65,6 @@
       "total": 91700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000111203"
     },
-    "20_234_0:708010809": {
-      "access": [
-        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
-        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
-        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
-      ],
-      "area": 31.0,
-      "commonfee": 3600,
-      "danchi_id": "20_234_0",
-      "danchi_name": "希望ヶ丘",
-      "floor": 8,
-      "floor_all": 11,
-      "group": "東京23区:112",
-      "key": "20_234_0:708010809",
-      "layout": "1K",
-      "rent": 84600,
-      "room_id": "708010809",
-      "room_name": "7-8-1号棟809号室",
-      "total": 88200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010809"
-    },
-    "20_281_0:000071323": {
-      "access": [
-        "JR常盤線「亀有」駅 徒歩18～23分",
-        "JR常磐線「亀有」駅バス3分 徒歩2～4分",
-        "東京メトロ千代田線「北綾瀬」駅 徒歩16～19分"
-      ],
-      "area": 49.0,
-      "commonfee": 3700,
-      "danchi_id": "20_281_0",
-      "danchi_name": "大谷田一丁目",
-      "floor": 13,
-      "floor_all": 14,
-      "group": "東京23区:121",
-      "key": "20_281_0:000071323",
-      "layout": "2DK",
-      "rent": 85100,
-      "room_id": "000071323",
-      "room_name": "7号棟1323号室",
-      "total": 88800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2810_room.html?JKSS=000071323"
-    },
     "20_308_0:000020415": {
       "access": [
         "JR埼京線「赤羽」駅 徒歩6～7分",
@@ -147,27 +105,6 @@
       "room_name": "12号棟502号室",
       "total": 143200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3470_room.html?JKSS=000120502"
-    },
-    "20_386_0:000300607": {
-      "access": [
-        "東京メトロ東西線「木場」駅 徒歩9～10分",
-        "東京メトロ東西線・都営大江戸線「門前仲町」駅 徒歩10～12分",
-        "東京メトロ半蔵門線・都営大江戸線「清澄白河」駅 徒歩14～15分"
-      ],
-      "area": 44.0,
-      "commonfee": 4000,
-      "danchi_id": "20_386_0",
-      "danchi_name": "木場三丁目パークハイツ",
-      "floor": 6,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_386_0:000300607",
-      "layout": "1K",
-      "rent": 151300,
-      "room_id": "000300607",
-      "room_name": "3号棟607号室",
-      "total": 155300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3860_room.html?JKSS=000300607"
     },
     "20_448_1:000120603": {
       "access": [

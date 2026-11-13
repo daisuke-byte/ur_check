@@ -85,26 +85,6 @@
       "total": 91700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000111203"
     },
-    "20_308_0:000020415": {
-      "access": [
-        "JR埼京線「赤羽」駅 徒歩6～7分",
-        "東京メトロ南北線「志茂」駅 徒歩9～10分"
-      ],
-      "area": 54.0,
-      "commonfee": 2800,
-      "danchi_id": "20_308_0",
-      "danchi_name": "赤羽南一丁目",
-      "floor": 4,
-      "floor_all": 8,
-      "group": "東京23区:117",
-      "key": "20_308_0:000020415",
-      "layout": "1LDK",
-      "rent": 124400,
-      "room_id": "000020415",
-      "room_name": "2号棟415号室",
-      "total": 127200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3080_room.html?JKSS=000020415"
-    },
     "20_310_0:000020305": {
       "access": [
         "JR埼京線「浮間舟渡」駅 徒歩8分"
@@ -186,27 +166,6 @@
       "room_name": "1号棟205号室",
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
-    },
-    "20_646_0:000001111": {
-      "access": [
-        "JR京葉線「潮見」駅 徒歩2分",
-        "東京メトロ東西線「東陽町」駅バス11分 徒歩2分",
-        "東京メトロ有楽町線「辰巳」駅 徒歩24分"
-      ],
-      "area": 65.0,
-      "commonfee": 6800,
-      "danchi_id": "20_646_0",
-      "danchi_name": "潮見駅前プラザ二番街",
-      "floor": 11,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_646_0:000001111",
-      "layout": "1LDK",
-      "rent": 174800,
-      "room_id": "000001111",
-      "room_name": "1111号室",
-      "total": 181600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000001111"
     },
     "20_700_0:000040109": {
       "access": [

@@ -65,46 +65,6 @@
       "total": 77200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=030016502"
     },
-    "20_225_0:233050205": {
-      "access": [
-        "都営三田線「高島平」駅 徒歩2～11分",
-        "都営三田線「新高島平」駅 徒歩4～22分"
-      ],
-      "area": 46.0,
-      "commonfee": 4200,
-      "danchi_id": "20_225_0",
-      "danchi_name": "高島平",
-      "floor": 2,
-      "floor_all": 12,
-      "group": "東京23区:119",
-      "key": "20_225_0:233050205",
-      "layout": "2DK",
-      "rent": 96000,
-      "room_id": "233050205",
-      "room_name": "2-33-5号棟205号室",
-      "total": 100200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205"
-    },
-    "20_232_0:000050913": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
-      ],
-      "area": 48.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 9,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000050913",
-      "layout": "1LDK",
-      "rent": 92100,
-      "room_id": "000050913",
-      "room_name": "5号棟913号室",
-      "total": 95400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000050913"
-    },
     "20_232_0:000111203": {
       "access": [
         "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
@@ -124,45 +84,6 @@
       "room_name": "11号棟1203号室",
       "total": 91700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000111203"
-    },
-    "20_267_0:000020819": {
-      "access": [
-        "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
-        "JR京浜東北・根岸線「東十条」駅 徒歩10～15分"
-      ],
-      "area": 48.0,
-      "commonfee": 4200,
-      "danchi_id": "20_267_0",
-      "danchi_name": "王子五丁目",
-      "floor": 8,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_267_0:000020819",
-      "layout": "1LDK",
-      "rent": 115900,
-      "room_id": "000020819",
-      "room_name": "2号棟819号室",
-      "total": 120100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2670_room.html?JKSS=000020819"
-    },
-    "20_280_0:000010304": {
-      "access": [
-        "JR埼京線「北赤羽」駅 徒歩6～7分"
-      ],
-      "area": 49.0,
-      "commonfee": 4000,
-      "danchi_id": "20_280_0",
-      "danchi_name": "赤羽北二丁目",
-      "floor": 3,
-      "floor_all": 11,
-      "group": "東京23区:117",
-      "key": "20_280_0:000010304",
-      "layout": "1LDK",
-      "rent": 119100,
-      "room_id": "000010304",
-      "room_name": "1号棟304号室",
-      "total": 123100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2800_room.html?JKSS=000010304"
     },
     "20_308_0:000020415": {
       "access": [
@@ -266,68 +187,6 @@
       "total": 155300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
     },
-    "20_569_0:000021110": {
-      "access": [
-        "都営大江戸線「勝どき」駅 徒歩9分",
-        "都営大江戸線ほか「月島」駅 徒歩10分",
-        "JR山手線「有楽町」駅バス15分 徒歩5分"
-      ],
-      "area": 44.0,
-      "commonfee": 8000,
-      "danchi_id": "20_569_0",
-      "danchi_name": "晴海アイランド トリトンスクエアガーデンプラザ",
-      "floor": 11,
-      "floor_all": 18,
-      "group": "東京23区:102",
-      "key": "20_569_0:000021110",
-      "layout": "2DK",
-      "rent": 181200,
-      "room_id": "000021110",
-      "room_name": "2号棟1110号室",
-      "total": 189200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5690_room.html?JKSS=000021110"
-    },
-    "20_600_0:000011314": {
-      "access": [
-        "東京メトロ南北線「王子神谷」駅 徒歩6～7分",
-        "JR京浜東北・根岸線「東十条」駅 徒歩16～17分"
-      ],
-      "area": 53.0,
-      "commonfee": 4200,
-      "danchi_id": "20_600_0",
-      "danchi_name": "フレーシェル王子神谷",
-      "floor": 13,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_600_0:000011314",
-      "layout": "1LDK",
-      "rent": 161600,
-      "room_id": "000011314",
-      "room_name": "1号棟1314号室",
-      "total": 165800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000011314"
-    },
-    "20_646_0:000000519": {
-      "access": [
-        "JR京葉線「潮見」駅 徒歩2分",
-        "東京メトロ東西線「東陽町」駅バス11分 徒歩2分",
-        "東京メトロ有楽町線「辰巳」駅 徒歩24分"
-      ],
-      "area": 56.0,
-      "commonfee": 6800,
-      "danchi_id": "20_646_0",
-      "danchi_name": "潮見駅前プラザ二番街",
-      "floor": 5,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_646_0:000000519",
-      "layout": "1LDK",
-      "rent": 158500,
-      "room_id": "000000519",
-      "room_name": "519号室",
-      "total": 165300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000000519"
-    },
     "20_646_0:000001111": {
       "access": [
         "JR京葉線「潮見」駅 徒歩2分",
@@ -348,27 +207,6 @@
       "room_name": "1111号室",
       "total": 181600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6460_room.html?JKSS=000001111"
-    },
-    "20_694_0:000080615": {
-      "access": [
-        "JR埼京線「赤羽」駅 徒歩6～11分",
-        "東京メトロ南北線「赤羽岩淵」駅 徒歩11～17分",
-        "JR京浜東北・根岸線「赤羽」駅 徒歩6～11分"
-      ],
-      "area": 46.0,
-      "commonfee": 4200,
-      "danchi_id": "20_694_0",
-      "danchi_name": "ヌーヴェル赤羽台",
-      "floor": 6,
-      "floor_all": 10,
-      "group": "東京23区:117",
-      "key": "20_694_0:000080615",
-      "layout": "1DK",
-      "rent": 142300,
-      "room_id": "000080615",
-      "room_name": "8号棟615号室",
-      "total": 146500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6940_room.html?JKSS=000080615"
     },
     "20_700_0:000040109": {
       "access": [

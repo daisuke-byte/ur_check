@@ -26,44 +26,6 @@
       "total": 89100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1301_room.html?JKSS=000340203"
     },
-    "20_131_0:000006305": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
-      ],
-      "area": 41.0,
-      "commonfee": 4800,
-      "danchi_id": "20_131_0",
-      "danchi_name": "竹の塚第二",
-      "floor": 3,
-      "floor_all": 4,
-      "group": "東京23区:121",
-      "key": "20_131_0:000006305",
-      "layout": "2DK",
-      "rent": 86300,
-      "room_id": "000006305",
-      "room_name": "6号棟305号室",
-      "total": 91100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000006305"
-    },
-    "20_160_0:000008108": {
-      "access": [
-        "東武伊勢崎線「西新井」駅 徒歩8～13分"
-      ],
-      "area": 40.0,
-      "commonfee": 4270,
-      "danchi_id": "20_160_0",
-      "danchi_name": "栗原",
-      "floor": 1,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_160_0:000008108",
-      "layout": "2DK",
-      "rent": 82200,
-      "room_id": "000008108",
-      "room_name": "8号棟108号室",
-      "total": 86470,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1600_room.html?JKSS=000008108"
-    },
     "20_164_0:000011016": {
       "access": [
         "JR常磐線「北千住」駅 徒歩5～7分",
@@ -188,26 +150,6 @@
       "room_name": "9号棟203号室",
       "total": 118700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000090203"
-    },
-    "20_700_0:000040109": {
-      "access": [
-        "JR常磐線「綾瀬」駅 徒歩12～16分",
-        "東京メトロ千代田線「綾瀬」駅 徒歩12～16分"
-      ],
-      "area": 50.0,
-      "commonfee": 5500,
-      "danchi_id": "20_700_0",
-      "danchi_name": "パークタウン東綾瀬",
-      "floor": 1,
-      "floor_all": 8,
-      "group": "東京23区:121",
-      "key": "20_700_0:000040109",
-      "layout": "2DK",
-      "rent": 128200,
-      "room_id": "000040109",
-      "room_name": "4号棟109号室",
-      "total": 133700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000040109"
     },
     "20_705_0:000030105": {
       "access": [

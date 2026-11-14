@@ -85,46 +85,6 @@
       "total": 135700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000011016"
     },
-    "20_183_0:000010308": {
-      "access": [
-        "JR京浜東北線ほか「大井町」駅 徒歩14分 またはバス3分徒歩2分",
-        "京急本線「立会川」駅 徒歩12分"
-      ],
-      "area": 44.0,
-      "commonfee": 9000,
-      "danchi_id": "20_183_0",
-      "danchi_name": "大井六丁目",
-      "floor": 3,
-      "floor_all": 8,
-      "group": "東京23区:109",
-      "key": "20_183_0:000010308",
-      "layout": "1LDK",
-      "rent": 122700,
-      "room_id": "000010308",
-      "room_name": "308号室",
-      "total": 131700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1830_room.html?JKSS=000010308"
-    },
-    "20_232_0:000111203": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
-      ],
-      "area": 49.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000111203",
-      "layout": "2DK",
-      "rent": 88400,
-      "room_id": "000111203",
-      "room_name": "11号棟1203号室",
-      "total": 91700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000111203"
-    },
     "20_234_0:708010233": {
       "access": [
         "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
@@ -167,66 +127,6 @@
       "total": 88200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010809"
     },
-    "20_267_0:000020430": {
-      "access": [
-        "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
-        "JR京浜東北・根岸線「東十条」駅 徒歩10～15分"
-      ],
-      "area": 48.0,
-      "commonfee": 4200,
-      "danchi_id": "20_267_0",
-      "danchi_name": "王子五丁目",
-      "floor": 4,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_267_0:000020430",
-      "layout": "1LDK",
-      "rent": 116700,
-      "room_id": "000020430",
-      "room_name": "2号棟430号室",
-      "total": 120900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2670_room.html?JKSS=000020430"
-    },
-    "20_310_0:000020305": {
-      "access": [
-        "JR埼京線「浮間舟渡」駅 徒歩8分"
-      ],
-      "area": 64.0,
-      "commonfee": 4500,
-      "danchi_id": "20_310_0",
-      "danchi_name": "舟渡二丁目",
-      "floor": 3,
-      "floor_all": 5,
-      "group": "東京23区:119",
-      "key": "20_310_0:000020305",
-      "layout": "2LDK",
-      "rent": 133200,
-      "room_id": "000020305",
-      "room_name": "2号棟305号室",
-      "total": 137700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3100_room.html?JKSS=000020305"
-    },
-    "20_448_1:000120603": {
-      "access": [
-        "JR常磐線「亀有」駅 徒歩13～17分",
-        "JR常磐線「亀有」駅バス5分 徒歩2～4分",
-        "京成本線「青砥」駅 徒歩20～22分"
-      ],
-      "area": 66.0,
-      "commonfee": 6600,
-      "danchi_id": "20_448_1",
-      "danchi_name": "すまいる亀有",
-      "floor": 6,
-      "floor_all": 14,
-      "group": "東京23区:122",
-      "key": "20_448_1:000120603",
-      "layout": "3LDK",
-      "rent": 137800,
-      "room_id": "000120603",
-      "room_name": "12号棟603号室",
-      "total": 144400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000120603"
-    },
     "20_502_0:000060505": {
       "access": [
         "JR総武線快速「新小岩」駅 徒歩9～11分",
@@ -246,46 +146,6 @@
       "room_name": "6号棟505号室",
       "total": 112600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000060505"
-    },
-    "20_517_0:000000314": {
-      "access": [
-        "京王線「千歳烏山」駅 徒歩13分"
-      ],
-      "area": 66.0,
-      "commonfee": 8800,
-      "danchi_id": "20_517_0",
-      "danchi_name": "シティハイツ烏山",
-      "floor": 3,
-      "floor_all": 5,
-      "group": "東京23区:112",
-      "key": "20_517_0:000000314",
-      "layout": "2LDK",
-      "rent": 184100,
-      "room_id": "000000314",
-      "room_name": "314号室",
-      "total": 192900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5170_room.html?JKSS=000000314"
-    },
-    "20_525_0:000010205": {
-      "access": [
-        "西武池袋線「大泉学園」駅 徒歩15～19分",
-        "西武池袋線「大泉学園」駅バス4分 徒歩6～9分",
-        "西武池袋線「石神井公園」駅 徒歩18～21分"
-      ],
-      "area": 62.0,
-      "commonfee": 9900,
-      "danchi_id": "20_525_0",
-      "danchi_name": "パークサイド石神井",
-      "floor": 2,
-      "floor_all": 5,
-      "group": "東京23区:120",
-      "key": "20_525_0:000010205",
-      "layout": "2LDK",
-      "rent": 145400,
-      "room_id": "000010205",
-      "room_name": "1号棟205号室",
-      "total": 155300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
     },
     "20_544_0:000140202": {
       "access": [
@@ -307,6 +167,47 @@
       "room_name": "14号棟202号室",
       "total": 162270,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000140202"
+    },
+    "20_642_0:000090203": {
+      "access": [
+        "東武大師線「大師前」駅 徒歩9～12分",
+        "日暮里舎人ライナー「西新井大師西」駅 徒歩14～16分",
+        "東武伊勢崎線「西新井」駅 徒歩16～19分"
+      ],
+      "area": 53.0,
+      "commonfee": 6600,
+      "danchi_id": "20_642_0",
+      "danchi_name": "フレール西新井第二",
+      "floor": 2,
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_642_0:000090203",
+      "layout": "1K",
+      "rent": 112100,
+      "room_id": "000090203",
+      "room_name": "9号棟203号室",
+      "total": 118700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000090203"
+    },
+    "20_700_0:000040109": {
+      "access": [
+        "JR常磐線「綾瀬」駅 徒歩12～16分",
+        "東京メトロ千代田線「綾瀬」駅 徒歩12～16分"
+      ],
+      "area": 50.0,
+      "commonfee": 5500,
+      "danchi_id": "20_700_0",
+      "danchi_name": "パークタウン東綾瀬",
+      "floor": 1,
+      "floor_all": 8,
+      "group": "東京23区:121",
+      "key": "20_700_0:000040109",
+      "layout": "2DK",
+      "rent": 128200,
+      "room_id": "000040109",
+      "room_name": "4号棟109号室",
+      "total": 133700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000040109"
     },
     "20_705_0:000030105": {
       "access": [

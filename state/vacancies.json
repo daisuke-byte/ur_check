@@ -150,26 +150,6 @@
       "room_name": "9号棟203号室",
       "total": 118700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000090203"
-    },
-    "20_705_0:000030105": {
-      "access": [
-        "日暮里舎人ライナー「谷在家」駅 徒歩12～14分",
-        "東武大師線「大師前」駅 徒歩16～18分"
-      ],
-      "area": 61.0,
-      "commonfee": 5100,
-      "danchi_id": "20_705_0",
-      "danchi_name": "フレール西新井中央公園",
-      "floor": 1,
-      "floor_all": 8,
-      "group": "東京23区:121",
-      "key": "20_705_0:000030105",
-      "layout": "2LDK",
-      "rent": 126600,
-      "room_id": "000030105",
-      "room_name": "3号棟105号室",
-      "total": 131700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7050_room.html?JKSS=000030105"
     }
   }
 }

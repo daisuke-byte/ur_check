@@ -47,47 +47,24 @@
       "total": 135700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000011016"
     },
-    "20_234_0:708010233": {
+    "20_322_0:000000917": {
       "access": [
-        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
-        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
-        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
+        "京王線「笹塚」駅 徒歩1分"
       ],
-      "area": 31.0,
-      "commonfee": 3600,
-      "danchi_id": "20_234_0",
-      "danchi_name": "希望ヶ丘",
-      "floor": 2,
-      "floor_all": 11,
-      "group": "東京23区:112",
-      "key": "20_234_0:708010233",
-      "layout": "1DK",
-      "rent": 83700,
-      "room_id": "708010233",
-      "room_name": "7-8-1号棟233号室",
-      "total": 87300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010233"
-    },
-    "20_234_0:708010809": {
-      "access": [
-        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
-        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
-        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
-      ],
-      "area": 31.0,
-      "commonfee": 3600,
-      "danchi_id": "20_234_0",
-      "danchi_name": "希望ヶ丘",
-      "floor": 8,
-      "floor_all": 11,
-      "group": "東京23区:112",
-      "key": "20_234_0:708010809",
-      "layout": "1K",
-      "rent": 84600,
-      "room_id": "708010809",
-      "room_name": "7-8-1号棟809号室",
-      "total": 88200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010809"
+      "area": 62.0,
+      "commonfee": 4820,
+      "danchi_id": "20_322_0",
+      "danchi_name": "笹塚駅前",
+      "floor": 9,
+      "floor_all": 12,
+      "group": "東京23区:113",
+      "key": "20_322_0:000000917",
+      "layout": "2LDK",
+      "rent": 192200,
+      "room_id": "000000917",
+      "room_name": "917号室",
+      "total": 197020,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3220_room.html?JKSS=000000917"
     },
     "20_502_0:000060505": {
       "access": [

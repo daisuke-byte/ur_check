@@ -87,27 +87,6 @@
       "total": 135700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000011016"
     },
-    "20_254_0:000030603": {
-      "access": [
-        "東京メトロ東西線「西葛西」駅 徒歩3～9分",
-        "東京メトロ東西線「葛西」駅 徒歩14～17分",
-        "都営新宿線「船堀」駅バス13分 徒歩1～5分"
-      ],
-      "area": 47.0,
-      "commonfee": 3000,
-      "danchi_id": "20_254_0",
-      "danchi_name": "小島町二丁目",
-      "floor": 6,
-      "floor_all": 14,
-      "group": "東京23区:123",
-      "key": "20_254_0:000030603",
-      "layout": "2DK",
-      "rent": 112800,
-      "room_id": "000030603",
-      "room_name": "3号棟603号室",
-      "total": 115800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2540_room.html?JKSS=000030603"
-    },
     "20_280_0:000010304": {
       "access": [
         "JR埼京線「北赤羽」駅 徒歩6～7分"
@@ -147,26 +126,6 @@
       "total": 112600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000060505"
     },
-    "20_554_0:000010404": {
-      "access": [
-        "京急本線「平和島」駅 徒歩7～8分",
-        "東京モノレ－ル「流通センター」駅 徒歩19～20分"
-      ],
-      "area": 67.0,
-      "commonfee": 11400,
-      "danchi_id": "20_554_0",
-      "danchi_name": "アミティ大森東",
-      "floor": 4,
-      "floor_all": 4,
-      "group": "東京23区:111",
-      "key": "20_554_0:000010404",
-      "layout": "2LDK",
-      "rent": 180900,
-      "room_id": "000010404",
-      "room_name": "1号棟404号室",
-      "total": 192300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5540_room.html?JKSS=000010404"
-    },
     "20_631_0:000001011": {
       "access": [
         "都営三田線ほか「春日」駅 徒歩5分",
@@ -186,27 +145,6 @@
       "room_name": "1011号室",
       "total": 183000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000001011"
-    },
-    "20_642_0:000090203": {
-      "access": [
-        "東武大師線「大師前」駅 徒歩9～12分",
-        "日暮里舎人ライナー「西新井大師西」駅 徒歩14～16分",
-        "東武伊勢崎線「西新井」駅 徒歩16～19分"
-      ],
-      "area": 53.0,
-      "commonfee": 6600,
-      "danchi_id": "20_642_0",
-      "danchi_name": "フレール西新井第二",
-      "floor": 2,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_642_0:000090203",
-      "layout": "1K",
-      "rent": 112100,
-      "room_id": "000090203",
-      "room_name": "9号棟203号室",
-      "total": 118700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000090203"
     }
   }
 }

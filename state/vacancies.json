@@ -86,26 +86,6 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205"
     },
-    "20_232_0:000091107": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
-      ],
-      "area": 35.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 11,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000091107",
-      "layout": "1DK",
-      "rent": 66400,
-      "room_id": "000091107",
-      "room_name": "9号棟1107号室",
-      "total": 69700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000091107"
-    },
     "20_232_0:000111203": {
       "access": [
         "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
@@ -126,7 +106,7 @@
       "total": 91700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000111203"
     },
-    "20_234_0:708010809": {
+    "20_234_0:708010233": {
       "access": [
         "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
         "京王線「八幡山」駅バス5～8分 徒歩1～3分",
@@ -136,58 +116,16 @@
       "commonfee": 3600,
       "danchi_id": "20_234_0",
       "danchi_name": "希望ヶ丘",
-      "floor": 8,
+      "floor": 2,
       "floor_all": 11,
       "group": "東京23区:112",
-      "key": "20_234_0:708010809",
-      "layout": "1K",
-      "rent": 84600,
-      "room_id": "708010809",
-      "room_name": "7-8-1号棟809号室",
-      "total": 88200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010809"
-    },
-    "20_544_0:000140202": {
-      "access": [
-        "小田急小田原線「千歳船橋」駅 徒歩11～15分",
-        "小田急小田原線「経堂」駅 徒歩11～19分",
-        "京王線「八幡山」駅バス4～5分 徒歩5～9分"
-      ],
-      "area": 52.0,
-      "commonfee": 5470,
-      "danchi_id": "20_544_0",
-      "danchi_name": "フレール西経堂",
-      "floor": 2,
-      "floor_all": 10,
-      "group": "東京23区:112",
-      "key": "20_544_0:000140202",
-      "layout": "2DK",
-      "rent": 156800,
-      "room_id": "000140202",
-      "room_name": "14号棟202号室",
-      "total": 162270,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000140202"
-    },
-    "20_544_0:000200304": {
-      "access": [
-        "小田急小田原線「千歳船橋」駅 徒歩11～15分",
-        "小田急小田原線「経堂」駅 徒歩11～19分",
-        "京王線「八幡山」駅バス4～5分 徒歩5～9分"
-      ],
-      "area": 46.0,
-      "commonfee": 5470,
-      "danchi_id": "20_544_0",
-      "danchi_name": "フレール西経堂",
-      "floor": 3,
-      "floor_all": 5,
-      "group": "東京23区:112",
-      "key": "20_544_0:000200304",
-      "layout": "2DK",
-      "rent": 175000,
-      "room_id": "000200304",
-      "room_name": "20号棟304号室",
-      "total": 180470,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000200304"
+      "key": "20_234_0:708010233",
+      "layout": "1DK",
+      "rent": 83700,
+      "room_id": "708010233",
+      "room_name": "7-8-1号棟233号室",
+      "total": 87300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010233"
     },
     "20_640_0:000040302": {
       "access": [

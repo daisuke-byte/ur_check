@@ -127,26 +127,6 @@
       "total": 105300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000070918"
     },
-    "20_225_0:228040111": {
-      "access": [
-        "都営三田線「高島平」駅 徒歩2～11分",
-        "都営三田線「新高島平」駅 徒歩4～22分"
-      ],
-      "area": 33.0,
-      "commonfee": 4200,
-      "danchi_id": "20_225_0",
-      "danchi_name": "高島平",
-      "floor": 1,
-      "floor_all": 11,
-      "group": "東京23区:119",
-      "key": "20_225_0:228040111",
-      "layout": "1DK",
-      "rent": 67200,
-      "room_id": "228040111",
-      "room_name": "2-28-4号棟111号室",
-      "total": 71400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=228040111"
-    },
     "20_225_0:233050205": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -290,26 +270,6 @@
       "room_name": "20号棟203号室",
       "total": 152370,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000200203"
-    },
-    "20_671_0:000120704": {
-      "access": [
-        "京王線「芦花公園」駅 徒歩5～8分",
-        "京王線「千歳烏山」駅 徒歩6～9分"
-      ],
-      "area": 33.0,
-      "commonfee": 6300,
-      "danchi_id": "20_671_0",
-      "danchi_name": "芦花公園",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:112",
-      "key": "20_671_0:000120704",
-      "layout": "1DK",
-      "rent": 120800,
-      "room_id": "000120704",
-      "room_name": "12号棟704号室",
-      "total": 127100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6710_room.html?JKSS=000120704"
     },
     "30_512_0:000112608": {
       "access": [

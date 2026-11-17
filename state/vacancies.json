@@ -85,25 +85,47 @@
       "total": 127600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000031110"
     },
-    "20_225_0:226041115": {
+    "20_178_0:000010636": {
       "access": [
-        "都営三田線「高島平」駅 徒歩2～11分",
-        "都営三田線「新高島平」駅 徒歩4～22分"
+        "都営新宿線「西大島」駅 徒歩5～10分",
+        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
+        "都営新宿線「大島」駅 徒歩7～12分"
       ],
-      "area": 47.0,
-      "commonfee": 4200,
-      "danchi_id": "20_225_0",
-      "danchi_name": "高島平",
-      "floor": 11,
-      "floor_all": 11,
-      "group": "東京23区:119",
-      "key": "20_225_0:226041115",
-      "layout": "1LDK",
-      "rent": 99000,
-      "room_id": "226041115",
-      "room_name": "2-26-4号棟1115号室",
-      "total": 103200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=226041115"
+      "area": 54.0,
+      "commonfee": 3900,
+      "danchi_id": "20_178_0",
+      "danchi_name": "大島四丁目",
+      "floor": 6,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_178_0:000010636",
+      "layout": "2DK",
+      "rent": 106000,
+      "room_id": "000010636",
+      "room_name": "1号棟636号室",
+      "total": 109900,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000010636"
+    },
+    "20_178_0:000070918": {
+      "access": [
+        "都営新宿線「西大島」駅 徒歩5～10分",
+        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
+        "都営新宿線「大島」駅 徒歩7～12分"
+      ],
+      "area": 50.0,
+      "commonfee": 3900,
+      "danchi_id": "20_178_0",
+      "danchi_name": "大島四丁目",
+      "floor": 9,
+      "floor_all": 9,
+      "group": "東京23区:108",
+      "key": "20_178_0:000070918",
+      "layout": "2LDK",
+      "rent": 101400,
+      "room_id": "000070918",
+      "room_name": "7号棟918号室",
+      "total": 105300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000070918"
     },
     "20_225_0:228040111": {
       "access": [
@@ -145,25 +167,26 @@
       "total": 100200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205"
     },
-    "20_232_0:000111203": {
+    "20_234_0:708010233": {
       "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
+        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
+        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
+        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
       ],
-      "area": 49.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 12,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000111203",
-      "layout": "2DK",
-      "rent": 88400,
-      "room_id": "000111203",
-      "room_name": "11号棟1203号室",
-      "total": 91700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000111203"
+      "area": 31.0,
+      "commonfee": 3600,
+      "danchi_id": "20_234_0",
+      "danchi_name": "希望ヶ丘",
+      "floor": 2,
+      "floor_all": 11,
+      "group": "東京23区:112",
+      "key": "20_234_0:708010233",
+      "layout": "1DK",
+      "rent": 83700,
+      "room_id": "708010233",
+      "room_name": "7-8-1号棟233号室",
+      "total": 87300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010233"
     },
     "20_281_0:000080704": {
       "access": [
@@ -186,6 +209,26 @@
       "total": 101000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2810_room.html?JKSS=000080704"
     },
+    "20_460_0:000030226": {
+      "access": [
+        "小田急小田原線「成城学園前」駅バス7分 徒歩2～3分 または「成城学園前」駅 徒歩21分",
+        "京王線「千歳烏山」駅バス12分 徒歩2～3分"
+      ],
+      "area": 60.0,
+      "commonfee": 3800,
+      "danchi_id": "20_460_0",
+      "danchi_name": "成城通りパークウエスト",
+      "floor": 2,
+      "floor_all": 5,
+      "group": "東京23区:112",
+      "key": "20_460_0:000030226",
+      "layout": "3DK",
+      "rent": 173700,
+      "room_id": "000030226",
+      "room_name": "3号棟226号室",
+      "total": 177500,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4600_room.html?JKSS=000030226"
+    },
     "20_502_0:000020703": {
       "access": [
         "JR総武線快速「新小岩」駅 徒歩9～11分",
@@ -205,26 +248,6 @@
       "room_name": "2号棟703号室",
       "total": 138400,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000020703"
-    },
-    "20_502_0:000060505": {
-      "access": [
-        "JR総武線快速「新小岩」駅 徒歩9～11分",
-        "JR総武線「新小岩」駅 徒歩9～11分"
-      ],
-      "area": 37.0,
-      "commonfee": 4300,
-      "danchi_id": "20_502_0",
-      "danchi_name": "アーバンライフ東新小岩",
-      "floor": 5,
-      "floor_all": 8,
-      "group": "東京23区:122",
-      "key": "20_502_0:000060505",
-      "layout": "1DK",
-      "rent": 108300,
-      "room_id": "000060505",
-      "room_name": "6号棟505号室",
-      "total": 112600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000060505"
     },
     "20_544_0:000110501": {
       "access": [
@@ -268,25 +291,6 @@
       "total": 152370,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000200203"
     },
-    "20_653_0:000003416": {
-      "access": [
-        "東京メトロ有楽町線・都営大江戸線「月島」駅 徒歩1分"
-      ],
-      "area": 35.0,
-      "commonfee": 6000,
-      "danchi_id": "20_653_0",
-      "danchi_name": "ムーンアイランドタワー",
-      "floor": 34,
-      "floor_all": 38,
-      "group": "東京23区:102",
-      "key": "20_653_0:000003416",
-      "layout": "1K",
-      "rent": 165300,
-      "room_id": "000003416",
-      "room_name": "3416号室",
-      "total": 171300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6530_room.html?JKSS=000003416"
-    },
     "20_671_0:000120704": {
       "access": [
         "京王線「芦花公園」駅 徒歩5～8分",
@@ -307,23 +311,23 @@
       "total": 127100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6710_room.html?JKSS=000120704"
     },
-    "30_418_0:000030401": {
+    "30_512_0:000112608": {
       "access": [
-        "JR京葉線「新浦安」駅 徒歩12～14分 又はバス2分 徒歩1～3分"
+        "JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分"
       ],
-      "area": 75.0,
-      "commonfee": 2600,
-      "danchi_id": "30_418_0",
-      "danchi_name": "浦安マリナイースト２１フォーラム海風の街",
-      "floor": 4,
-      "floor_all": 14,
-      "key": "30_418_0:000030401",
-      "layout": "3LDK",
-      "rent": 183400,
-      "room_id": "000030401",
-      "room_name": "3号棟401号室",
-      "total": 186000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_4180_room.html?JKSS=000030401"
+      "area": 54.0,
+      "commonfee": 7100,
+      "danchi_id": "30_512_0",
+      "danchi_name": "浦安マリナイースト２１望海の街",
+      "floor": 26,
+      "floor_all": 28,
+      "key": "30_512_0:000112608",
+      "layout": "1LDK",
+      "rent": 164300,
+      "room_id": "000112608",
+      "room_name": "11号棟2608号室",
+      "total": 171400,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000112608"
     }
   }
 }

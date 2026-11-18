@@ -148,24 +148,6 @@
       "total": 152370,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000200203"
     },
-    "30_418_0:000030401": {
-      "access": [
-        "JR京葉線「新浦安」駅 徒歩12～14分 又はバス2分 徒歩1～3分"
-      ],
-      "area": 75.0,
-      "commonfee": 2600,
-      "danchi_id": "30_418_0",
-      "danchi_name": "浦安マリナイースト２１フォーラム海風の街",
-      "floor": 4,
-      "floor_all": 14,
-      "key": "30_418_0:000030401",
-      "layout": "3LDK",
-      "rent": 183400,
-      "room_id": "000030401",
-      "room_name": "3号棟401号室",
-      "total": 186000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_4180_room.html?JKSS=000030401"
-    },
     "30_512_0:000112608": {
       "access": [
         "JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分"

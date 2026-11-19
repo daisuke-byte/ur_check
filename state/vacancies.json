@@ -5,47 +5,6 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_117_0:000061508": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅バス9～15分 徒歩2～8分",
-        "東武伊勢崎線「谷塚」駅 徒歩17～24分"
-      ],
-      "area": 43.0,
-      "commonfee": 4500,
-      "danchi_id": "20_117_0",
-      "danchi_name": "花畑",
-      "floor": 5,
-      "floor_all": 5,
-      "group": "東京23区:121",
-      "key": "20_117_0:000061508",
-      "layout": "3K",
-      "rent": 63400,
-      "room_id": "000061508",
-      "room_name": "61号棟508号室",
-      "total": 67900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1170_room.html?JKSS=000061508"
-    },
-    "20_130_1:000330605": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩11～16分",
-        "東武伊勢崎線「竹ノ塚」駅バス2～3分 徒歩2～7分",
-        "JR常磐線「北千住」駅バス16～18分 徒歩1～5分"
-      ],
-      "area": 44.0,
-      "commonfee": 7500,
-      "danchi_id": "20_130_1",
-      "danchi_name": "竹の塚第一アネックス",
-      "floor": 6,
-      "floor_all": 10,
-      "group": "東京23区:121",
-      "key": "20_130_1:000330605",
-      "layout": "1LDK",
-      "rent": 100300,
-      "room_id": "000330605",
-      "room_name": "33号棟605号室",
-      "total": 107800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1301_room.html?JKSS=000330605"
-    },
     "20_130_1:000340203": {
       "access": [
         "東武伊勢崎線「竹ノ塚」駅 徒歩11～16分",
@@ -107,25 +66,26 @@
       "total": 127600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000031110"
     },
-    "20_225_0:233050205": {
+    "20_277_0:000030107": {
       "access": [
-        "都営三田線「高島平」駅 徒歩2～11分",
-        "都営三田線「新高島平」駅 徒歩4～22分"
+        "都営新宿線「篠崎」駅 徒歩17～19分",
+        "都営新宿線「篠崎」駅バス5分 徒歩2～3分",
+        "JR総武線「小岩」駅バス24分 徒歩2～3分"
       ],
-      "area": 46.0,
-      "commonfee": 4200,
-      "danchi_id": "20_225_0",
-      "danchi_name": "高島平",
-      "floor": 2,
-      "floor_all": 12,
-      "group": "東京23区:119",
-      "key": "20_225_0:233050205",
+      "area": 48.0,
+      "commonfee": 4900,
+      "danchi_id": "20_277_0",
+      "danchi_name": "エステート篠崎（下篠崎町）",
+      "floor": 1,
+      "floor_all": 9,
+      "group": "東京23区:123",
+      "key": "20_277_0:000030107",
       "layout": "2DK",
-      "rent": 96000,
-      "room_id": "233050205",
-      "room_name": "2-33-5号棟205号室",
-      "total": 100200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233050205"
+      "rent": 83800,
+      "room_id": "000030107",
+      "room_name": "3号棟107号室",
+      "total": 88700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000030107"
     },
     "20_640_0:000040302": {
       "access": [
@@ -146,26 +106,6 @@
       "room_name": "4号棟302号室",
       "total": 143390,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6400_room.html?JKSS=000040302"
-    },
-    "20_700_0:000030801": {
-      "access": [
-        "JR常磐線「綾瀬」駅 徒歩12～16分",
-        "東京メトロ千代田線「綾瀬」駅 徒歩12～16分"
-      ],
-      "area": 71.0,
-      "commonfee": 5500,
-      "danchi_id": "20_700_0",
-      "danchi_name": "パークタウン東綾瀬",
-      "floor": 8,
-      "floor_all": 10,
-      "group": "東京23区:121",
-      "key": "20_700_0:000030801",
-      "layout": "3LDK",
-      "rent": 163900,
-      "room_id": "000030801",
-      "room_name": "3号棟801号室",
-      "total": 169400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000030801"
     },
     "20_705_0:000030409": {
       "access": [

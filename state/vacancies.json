@@ -106,25 +106,6 @@
       "total": 87300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010233"
     },
-    "20_280_0:000020201": {
-      "access": [
-        "JR埼京線「北赤羽」駅 徒歩6～7分"
-      ],
-      "area": 67.0,
-      "commonfee": 4000,
-      "danchi_id": "20_280_0",
-      "danchi_name": "赤羽北二丁目",
-      "floor": 2,
-      "floor_all": 11,
-      "group": "東京23区:117",
-      "key": "20_280_0:000020201",
-      "layout": "3DK",
-      "rent": 151100,
-      "room_id": "000020201",
-      "room_name": "2号棟201号室",
-      "total": 155100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2800_room.html?JKSS=000020201"
-    },
     "20_369_0:060101004": {
       "access": [
         "都営大江戸線「光が丘」駅 徒歩5～9分",

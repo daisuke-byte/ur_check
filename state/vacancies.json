@@ -106,48 +106,6 @@
       "total": 87300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010233"
     },
-    "20_369_0:060101004": {
-      "access": [
-        "都営大江戸線「光が丘」駅 徒歩5～9分",
-        "東京メトロ有楽町線「地下鉄成増」駅バス9分 徒歩3～7分",
-        "東武東上線「成増」駅バス10分 徒歩3～7分"
-      ],
-      "area": 79.0,
-      "commonfee": 4700,
-      "danchi_id": "20_369_0",
-      "danchi_name": "光が丘パークタウン 大通り南",
-      "floor": 10,
-      "floor_all": 14,
-      "group": "東京23区:120",
-      "key": "20_369_0:060101004",
-      "layout": "3LDK",
-      "rent": 169300,
-      "room_id": "060101004",
-      "room_name": "6-1号棟1004号室",
-      "total": 174000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3690_room.html?JKSS=060101004"
-    },
-    "20_435_0:210050709": {
-      "access": [
-        "都営大江戸線「光が丘」駅 徒歩3～4分",
-        "東京メトロ有楽町線「地下鉄成増」駅バス10分 徒歩5～6分",
-        "東武東上線「成増」駅バス11分 徒歩5～6分"
-      ],
-      "area": 63.0,
-      "commonfee": 6800,
-      "danchi_id": "20_435_0",
-      "danchi_name": "光が丘パークタウン プロムナード十番街",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:120",
-      "key": "20_435_0:210050709",
-      "layout": "2DK",
-      "rent": 163000,
-      "room_id": "210050709",
-      "room_name": "2-10-5号棟709号室",
-      "total": 169800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4350_room.html?JKSS=210050709"
-    },
     "20_448_1:000140202": {
       "access": [
         "JR常磐線「亀有」駅 徒歩13～17分",
@@ -188,6 +146,27 @@
       "room_name": "19号棟310号室",
       "total": 136800,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4760_room.html?JKSS=000190310"
+    },
+    "20_544_0:000140202": {
+      "access": [
+        "小田急小田原線「千歳船橋」駅 徒歩11～15分",
+        "小田急小田原線「経堂」駅 徒歩11～19分",
+        "京王線「八幡山」駅バス4～5分 徒歩5～9分"
+      ],
+      "area": 52.0,
+      "commonfee": 5470,
+      "danchi_id": "20_544_0",
+      "danchi_name": "フレール西経堂",
+      "floor": 2,
+      "floor_all": 10,
+      "group": "東京23区:112",
+      "key": "20_544_0:000140202",
+      "layout": "2DK",
+      "rent": 156800,
+      "room_id": "000140202",
+      "room_name": "14号棟202号室",
+      "total": 162270,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000140202"
     },
     "20_700_0:000010104": {
       "access": [

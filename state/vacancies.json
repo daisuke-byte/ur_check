@@ -65,27 +65,6 @@
       "total": 155100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2800_room.html?JKSS=000020201"
     },
-    "20_369_0:708011709": {
-      "access": [
-        "都営大江戸線「光が丘」駅 徒歩5～9分",
-        "東京メトロ有楽町線「地下鉄成増」駅バス9分 徒歩3～7分",
-        "東武東上線「成増」駅バス10分 徒歩3～7分"
-      ],
-      "area": 34.0,
-      "commonfee": 4700,
-      "danchi_id": "20_369_0",
-      "danchi_name": "光が丘パークタウン 大通り南",
-      "floor": 17,
-      "floor_all": 25,
-      "group": "東京23区:120",
-      "key": "20_369_0:708011709",
-      "layout": "1DK",
-      "rent": 101200,
-      "room_id": "708011709",
-      "room_name": "7-8-1号棟1709号室",
-      "total": 105900,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3690_room.html?JKSS=708011709"
-    },
     "20_502_0:000030310": {
       "access": [
         "JR総武線快速「新小岩」駅 徒歩9～11分",

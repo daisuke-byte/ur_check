@@ -65,6 +65,26 @@
       "total": 155100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2800_room.html?JKSS=000020201"
     },
+    "20_492_0:000001206": {
+      "access": [
+        "JR山手線ほか「田町」駅 徒歩13分",
+        "京急本線「泉岳寺」駅から徒歩11分"
+      ],
+      "area": 48.0,
+      "commonfee": 3600,
+      "danchi_id": "20_492_0",
+      "danchi_name": "デュプレ芝浦",
+      "floor": 12,
+      "floor_all": 14,
+      "group": "東京23区:103",
+      "key": "20_492_0:000001206",
+      "layout": "1LDK",
+      "rent": 161500,
+      "room_id": "000001206",
+      "room_name": "1206号室",
+      "total": 165100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4920_room.html?JKSS=000001206"
+    },
     "20_646_0:000000622": {
       "access": [
         "JR京葉線「潮見」駅 徒歩2分",

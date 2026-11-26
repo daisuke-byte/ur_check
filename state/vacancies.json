@@ -84,47 +84,24 @@
       "total": 101500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=226060302"
     },
-    "20_254_0:000010906": {
+    "20_464_0:000000207": {
       "access": [
-        "東京メトロ東西線「西葛西」駅 徒歩3～9分",
-        "東京メトロ東西線「葛西」駅 徒歩14～17分",
-        "都営新宿線「船堀」駅バス13分 徒歩1～5分"
+        "東急池上線「池上」駅 徒歩6分"
       ],
-      "area": 48.0,
-      "commonfee": 3000,
-      "danchi_id": "20_254_0",
-      "danchi_name": "小島町二丁目",
-      "floor": 9,
-      "floor_all": 14,
-      "group": "東京23区:123",
-      "key": "20_254_0:000010906",
+      "area": 46.0,
+      "commonfee": 6700,
+      "danchi_id": "20_464_0",
+      "danchi_name": "エステート池上",
+      "floor": 2,
+      "floor_all": 6,
+      "group": "東京23区:111",
+      "key": "20_464_0:000000207",
       "layout": "1LDK",
-      "rent": 103400,
-      "room_id": "000010906",
-      "room_name": "1号棟906号室",
-      "total": 106400,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2540_room.html?JKSS=000010906"
-    },
-    "20_281_0:000020902": {
-      "access": [
-        "JR常盤線「亀有」駅 徒歩18～23分",
-        "JR常磐線「亀有」駅バス3分 徒歩2～4分",
-        "東京メトロ千代田線「北綾瀬」駅 徒歩16～19分"
-      ],
-      "area": 61.0,
-      "commonfee": 3700,
-      "danchi_id": "20_281_0",
-      "danchi_name": "大谷田一丁目",
-      "floor": 9,
-      "floor_all": 14,
-      "group": "東京23区:121",
-      "key": "20_281_0:000020902",
-      "layout": "3DK",
-      "rent": 95400,
-      "room_id": "000020902",
-      "room_name": "2号棟902号室",
-      "total": 99100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2810_room.html?JKSS=000020902"
+      "rent": 149100,
+      "room_id": "000000207",
+      "room_name": "207号室",
+      "total": 155800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4640_room.html?JKSS=000000207"
     },
     "20_492_0:000001206": {
       "access": [
@@ -145,26 +122,6 @@
       "room_name": "1206号室",
       "total": 165100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4920_room.html?JKSS=000001206"
-    },
-    "20_700_0:000010502": {
-      "access": [
-        "JR常磐線「綾瀬」駅 徒歩12～16分",
-        "東京メトロ千代田線「綾瀬」駅 徒歩12～16分"
-      ],
-      "area": 59.0,
-      "commonfee": 5500,
-      "danchi_id": "20_700_0",
-      "danchi_name": "パークタウン東綾瀬",
-      "floor": 5,
-      "floor_all": 10,
-      "group": "東京23区:121",
-      "key": "20_700_0:000010502",
-      "layout": "1LDK",
-      "rent": 147500,
-      "room_id": "000010502",
-      "room_name": "1号棟502号室",
-      "total": 153000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000010502"
     }
   }
 }

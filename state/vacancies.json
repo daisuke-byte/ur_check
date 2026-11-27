@@ -144,6 +144,27 @@
       "total": 83200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708011005"
     },
+    "20_277_0:000030107": {
+      "access": [
+        "都営新宿線「篠崎」駅 徒歩17～19分",
+        "都営新宿線「篠崎」駅バス5分 徒歩2～3分",
+        "JR総武線「小岩」駅バス24分 徒歩2～3分"
+      ],
+      "area": 48.0,
+      "commonfee": 4900,
+      "danchi_id": "20_277_0",
+      "danchi_name": "エステート篠崎（下篠崎町）",
+      "floor": 1,
+      "floor_all": 9,
+      "group": "東京23区:123",
+      "key": "20_277_0:000030107",
+      "layout": "2DK",
+      "rent": 83800,
+      "room_id": "000030107",
+      "room_name": "3号棟107号室",
+      "total": 88700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000030107"
+    },
     "20_394_0:000000402": {
       "access": [
         "JR常磐線・東京メトロ千代田線「綾瀬」駅 徒歩14分"
@@ -201,27 +222,6 @@
       "room_name": "1206号室",
       "total": 165100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4920_room.html?JKSS=000001206"
-    },
-    "20_624_0:000021702": {
-      "access": [
-        "JR常磐線快速「南千住」駅 徒歩7～8分",
-        "東京メトロ日比谷線「南千住」駅 徒歩7～8分",
-        "つくばエクスプレス「南千住」駅 徒歩7～9分"
-      ],
-      "area": 37.0,
-      "commonfee": 5400,
-      "danchi_id": "20_624_0",
-      "danchi_name": "リバーハープタワー南千住",
-      "floor": 17,
-      "floor_all": 38,
-      "group": "東京23区:118",
-      "key": "20_624_0:000021702",
-      "layout": "1K",
-      "rent": 112400,
-      "room_id": "000021702",
-      "room_name": "2号棟1702号室",
-      "total": 117800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6240_room.html?JKSS=000021702"
     },
     "20_640_0:000040302": {
       "access": [

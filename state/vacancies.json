@@ -5,27 +5,6 @@
     "東京23区"
   ],
   "vacancies": {
-    "20_130_1:000340203": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩11～16分",
-        "東武伊勢崎線「竹ノ塚」駅バス2～3分 徒歩2～7分",
-        "JR常磐線「北千住」駅バス16～18分 徒歩1～5分"
-      ],
-      "area": 36.0,
-      "commonfee": 5800,
-      "danchi_id": "20_130_1",
-      "danchi_name": "竹の塚第一アネックス",
-      "floor": 2,
-      "floor_all": 9,
-      "group": "東京23区:121",
-      "key": "20_130_1:000340203",
-      "layout": "1DK",
-      "rent": 83300,
-      "room_id": "000340203",
-      "room_name": "34号棟203号室",
-      "total": 89100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1301_room.html?JKSS=000340203"
-    },
     "20_131_0:000017302": {
       "access": [
         "東武伊勢崎線「竹ノ塚」駅 徒歩6～12分"
@@ -44,25 +23,6 @@
       "room_name": "17号棟302号室",
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017302"
-    },
-    "20_137_1:000150306": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩2～5分"
-      ],
-      "area": 80.0,
-      "commonfee": 5900,
-      "danchi_id": "20_137_1",
-      "danchi_name": "竹の塚第三アネックス",
-      "floor": 3,
-      "floor_all": 6,
-      "group": "東京23区:121",
-      "key": "20_137_1:000150306",
-      "layout": "3LDK",
-      "rent": 169300,
-      "room_id": "000150306",
-      "room_name": "15号棟306号室",
-      "total": 175200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1371_room.html?JKSS=000150306"
     },
     "20_160_0:000006106": {
       "access": [
@@ -103,27 +63,6 @@
       "total": 101500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=226060302"
     },
-    "20_234_0:708011005": {
-      "access": [
-        "小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分",
-        "京王線「八幡山」駅バス5～8分 徒歩1～3分",
-        "小田急小田原線「千歳船橋」駅 徒歩16～20分"
-      ],
-      "area": 31.0,
-      "commonfee": 3600,
-      "danchi_id": "20_234_0",
-      "danchi_name": "希望ヶ丘",
-      "floor": 10,
-      "floor_all": 11,
-      "group": "東京23区:112",
-      "key": "20_234_0:708011005",
-      "layout": "1DK",
-      "rent": 79600,
-      "room_id": "708011005",
-      "room_name": "7-8-1号棟1005号室",
-      "total": 83200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708011005"
-    },
     "20_277_0:000030107": {
       "access": [
         "都営新宿線「篠崎」駅 徒歩17～19分",
@@ -145,64 +84,26 @@
       "total": 88700,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000030107"
     },
-    "20_394_0:000000402": {
+    "20_294_0:000000826": {
       "access": [
-        "JR常磐線・東京メトロ千代田線「綾瀬」駅 徒歩14分"
+        "東京メトロ東西線「南砂町」駅 徒歩17分",
+        "都営新宿線「大島」駅バス7分 徒歩4分",
+        "JR総武線・東武亀戸線「亀戸」駅バス13分 徒歩4分"
       ],
       "area": 50.0,
-      "commonfee": 4400,
-      "danchi_id": "20_394_0",
-      "danchi_name": "メゾン堀切八丁目",
-      "floor": 4,
-      "floor_all": 5,
-      "group": "東京23区:122",
-      "key": "20_394_0:000000402",
+      "commonfee": 3000,
+      "danchi_id": "20_294_0",
+      "danchi_name": "北砂七丁目",
+      "floor": 8,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_294_0:000000826",
       "layout": "2DK",
-      "rent": 98100,
-      "room_id": "000000402",
-      "room_name": "402号室",
-      "total": 102500,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3940_room.html?JKSS=000000402"
-    },
-    "20_448_1:000140603": {
-      "access": [
-        "JR常磐線「亀有」駅 徒歩13～17分",
-        "JR常磐線「亀有」駅バス5分 徒歩2～4分",
-        "京成本線「青砥」駅 徒歩20～22分"
-      ],
-      "area": 52.0,
-      "commonfee": 6600,
-      "danchi_id": "20_448_1",
-      "danchi_name": "すまいる亀有",
-      "floor": 6,
-      "floor_all": 6,
-      "group": "東京23区:122",
-      "key": "20_448_1:000140603",
-      "layout": "2DK",
-      "rent": 120200,
-      "room_id": "000140603",
-      "room_name": "14号棟603号室",
-      "total": 126800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000140603"
-    },
-    "20_464_0:000000207": {
-      "access": [
-        "東急池上線「池上」駅 徒歩6分"
-      ],
-      "area": 46.0,
-      "commonfee": 6700,
-      "danchi_id": "20_464_0",
-      "danchi_name": "エステート池上",
-      "floor": 2,
-      "floor_all": 6,
-      "group": "東京23区:111",
-      "key": "20_464_0:000000207",
-      "layout": "1LDK",
-      "rent": 149100,
-      "room_id": "000000207",
-      "room_name": "207号室",
-      "total": 155800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4640_room.html?JKSS=000000207"
+      "rent": 103700,
+      "room_id": "000000826",
+      "room_name": "826号室",
+      "total": 106700,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2940_room.html?JKSS=000000826"
     },
     "20_640_0:000040302": {
       "access": [

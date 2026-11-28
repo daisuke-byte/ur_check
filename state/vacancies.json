@@ -24,6 +24,48 @@
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017302"
     },
+    "20_178_0:000010536": {
+      "access": [
+        "都営新宿線「西大島」駅 徒歩5～10分",
+        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
+        "都営新宿線「大島」駅 徒歩7～12分"
+      ],
+      "area": 54.0,
+      "commonfee": 3900,
+      "danchi_id": "20_178_0",
+      "danchi_name": "大島四丁目",
+      "floor": 5,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_178_0:000010536",
+      "layout": "2DK",
+      "rent": 112300,
+      "room_id": "000010536",
+      "room_name": "1号棟536号室",
+      "total": 116200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000010536"
+    },
+    "20_178_0:000070918": {
+      "access": [
+        "都営新宿線「西大島」駅 徒歩5～10分",
+        "JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分",
+        "都営新宿線「大島」駅 徒歩7～12分"
+      ],
+      "area": 50.0,
+      "commonfee": 3900,
+      "danchi_id": "20_178_0",
+      "danchi_name": "大島四丁目",
+      "floor": 9,
+      "floor_all": 9,
+      "group": "東京23区:108",
+      "key": "20_178_0:000070918",
+      "layout": "2LDK",
+      "rent": 101400,
+      "room_id": "000070918",
+      "room_name": "7号棟918号室",
+      "total": 105300,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000070918"
+    },
     "20_216_0:030019401": {
       "access": [
         "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
@@ -64,47 +106,25 @@
       "total": 101500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=226060302"
     },
-    "20_294_0:000000635": {
+    "20_522_0:000000401": {
       "access": [
-        "東京メトロ東西線「南砂町」駅 徒歩17分",
-        "都営新宿線「大島」駅バス7分 徒歩4分",
-        "JR総武線・東武亀戸線「亀戸」駅バス13分 徒歩4分"
+        "東急世田谷線「若林」駅 徒歩6分",
+        "東急田園都市線ほか「三軒茶屋」駅 徒歩14分"
       ],
-      "area": 34.0,
-      "commonfee": 3000,
-      "danchi_id": "20_294_0",
-      "danchi_name": "北砂七丁目",
-      "floor": 6,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_294_0:000000635",
-      "layout": "1DK",
-      "rent": 74100,
-      "room_id": "000000635",
-      "room_name": "635号室",
-      "total": 77100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2940_room.html?JKSS=000000635"
-    },
-    "20_320_0:000031206": {
-      "access": [
-        "東京メトロ有楽町線「豊洲」駅 徒歩7～11分",
-        "ゆりかもめ「豊洲」駅 徒歩9～12分",
-        "JR京葉線「越中島」駅バス8分 徒歩6～9分"
-      ],
-      "area": 54.0,
-      "commonfee": 6700,
-      "danchi_id": "20_320_0",
-      "danchi_name": "豊洲四丁目",
-      "floor": 12,
-      "floor_all": 12,
-      "group": "東京23区:108",
-      "key": "20_320_0:000031206",
-      "layout": "1LDK",
-      "rent": 168400,
-      "room_id": "000031206",
-      "room_name": "3号棟1206号室",
-      "total": 175100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3200_room.html?JKSS=000031206"
+      "area": 27.0,
+      "commonfee": 6300,
+      "danchi_id": "20_522_0",
+      "danchi_name": "世田谷通りシティハイツ若林",
+      "floor": 4,
+      "floor_all": 7,
+      "group": "東京23区:112",
+      "key": "20_522_0:000000401",
+      "layout": "1K",
+      "rent": 105700,
+      "room_id": "000000401",
+      "room_name": "401号室",
+      "total": 112000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5220_room.html?JKSS=000000401"
     },
     "20_640_0:000040302": {
       "access": [
@@ -125,27 +145,6 @@
       "room_name": "4号棟302号室",
       "total": 143390,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6400_room.html?JKSS=000040302"
-    },
-    "20_663_0:000050703": {
-      "access": [
-        "JR常磐線快速「南千住」駅 徒歩13～15分",
-        "東京メトロ日比谷線「南千住」駅 徒歩13～15分",
-        "つくばエクスプレス「南千住」駅 徒歩14～16分"
-      ],
-      "area": 52.0,
-      "commonfee": 6100,
-      "danchi_id": "20_663_0",
-      "danchi_name": "リバーハープコート南千住",
-      "floor": 7,
-      "floor_all": 10,
-      "group": "東京23区:118",
-      "key": "20_663_0:000050703",
-      "layout": "1LDK",
-      "rent": 138700,
-      "room_id": "000050703",
-      "room_name": "5号棟703号室",
-      "total": 144800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6630_room.html?JKSS=000050703"
     },
     "20_698_0:000210211": {
       "access": [

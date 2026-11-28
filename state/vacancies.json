@@ -104,46 +104,6 @@
       "total": 101500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=226060302"
     },
-    "20_232_0:000090809": {
-      "access": [
-        "JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分",
-        "東京メトロ南北線「王子」駅バス7分 徒歩2～6分"
-      ],
-      "area": 33.0,
-      "commonfee": 3300,
-      "danchi_id": "20_232_0",
-      "danchi_name": "豊島五丁目",
-      "floor": 8,
-      "floor_all": 14,
-      "group": "東京23区:117",
-      "key": "20_232_0:000090809",
-      "layout": "1DK",
-      "rent": 65800,
-      "room_id": "000090809",
-      "room_name": "9号棟809号室",
-      "total": 69100,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000090809"
-    },
-    "20_267_0:000050415": {
-      "access": [
-        "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
-        "JR京浜東北・根岸線「東十条」駅 徒歩10～15分"
-      ],
-      "area": 48.0,
-      "commonfee": 4200,
-      "danchi_id": "20_267_0",
-      "danchi_name": "王子五丁目",
-      "floor": 4,
-      "floor_all": 11,
-      "group": "東京23区:117",
-      "key": "20_267_0:000050415",
-      "layout": "1LDK",
-      "rent": 119100,
-      "room_id": "000050415",
-      "room_name": "5号棟415号室",
-      "total": 123300,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2670_room.html?JKSS=000050415"
-    },
     "20_294_0:000000635": {
       "access": [
         "東京メトロ東西線「南砂町」駅 徒歩17分",
@@ -286,6 +246,25 @@
       "room_name": "3号棟409号室",
       "total": 111600,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7050_room.html?JKSS=000030409"
+    },
+    "30_584_0:000020203": {
+      "access": [
+        "JR京葉線「舞浜」駅 徒歩17～20分",
+        "JR京葉線「新浦安」駅 徒歩28～30分"
+      ],
+      "area": 71.0,
+      "commonfee": 4600,
+      "danchi_id": "30_584_0",
+      "danchi_name": "コンフォール舞浜（コンフォール浦安弁天）",
+      "floor": 2,
+      "floor_all": 3,
+      "key": "30_584_0:000020203",
+      "layout": "3LDK",
+      "rent": 155000,
+      "room_id": "000020203",
+      "room_name": "2号棟203号室",
+      "total": 159600,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5840_room.html?JKSS=000020203"
     }
   }
 }

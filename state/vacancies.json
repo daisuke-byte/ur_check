@@ -24,46 +24,6 @@
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017302"
     },
-    "20_137_1:000150306": {
-      "access": [
-        "東武伊勢崎線「竹ノ塚」駅 徒歩2～5分"
-      ],
-      "area": 80.0,
-      "commonfee": 5900,
-      "danchi_id": "20_137_1",
-      "danchi_name": "竹の塚第三アネックス",
-      "floor": 3,
-      "floor_all": 6,
-      "group": "東京23区:121",
-      "key": "20_137_1:000150306",
-      "layout": "3LDK",
-      "rent": 169300,
-      "room_id": "000150306",
-      "room_name": "15号棟306号室",
-      "total": 175200,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1371_room.html?JKSS=000150306"
-    },
-    "20_164_0:000020203": {
-      "access": [
-        "JR常磐線「北千住」駅 徒歩5～7分",
-        "東武伊勢崎線「北千住」駅 徒歩5～7分",
-        "つくばエクスプレス「北千住」駅 徒歩5～7分"
-      ],
-      "area": 43.0,
-      "commonfee": 4200,
-      "danchi_id": "20_164_0",
-      "danchi_name": "日の出町",
-      "floor": 2,
-      "floor_all": 11,
-      "group": "東京23区:121",
-      "key": "20_164_0:000020203",
-      "layout": "1LDK",
-      "rent": 115600,
-      "room_id": "000020203",
-      "room_name": "2号棟203号室",
-      "total": 119800,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000020203"
-    },
     "20_216_0:030019401": {
       "access": [
         "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
@@ -226,45 +186,6 @@
       "room_name": "1号棟502号室",
       "total": 153000,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000010502"
-    },
-    "20_705_0:000030409": {
-      "access": [
-        "日暮里舎人ライナー「谷在家」駅 徒歩12～14分",
-        "東武大師線「大師前」駅 徒歩16～18分"
-      ],
-      "area": 44.0,
-      "commonfee": 5100,
-      "danchi_id": "20_705_0",
-      "danchi_name": "フレール西新井中央公園",
-      "floor": 4,
-      "floor_all": 8,
-      "group": "東京23区:121",
-      "key": "20_705_0:000030409",
-      "layout": "1DK",
-      "rent": 106500,
-      "room_id": "000030409",
-      "room_name": "3号棟409号室",
-      "total": 111600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7050_room.html?JKSS=000030409"
-    },
-    "30_584_0:000020203": {
-      "access": [
-        "JR京葉線「舞浜」駅 徒歩17～20分",
-        "JR京葉線「新浦安」駅 徒歩28～30分"
-      ],
-      "area": 71.0,
-      "commonfee": 4600,
-      "danchi_id": "30_584_0",
-      "danchi_name": "コンフォール舞浜（コンフォール浦安弁天）",
-      "floor": 2,
-      "floor_all": 3,
-      "key": "30_584_0:000020203",
-      "layout": "3LDK",
-      "rent": 155000,
-      "room_id": "000020203",
-      "room_name": "2号棟203号室",
-      "total": 159600,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5840_room.html?JKSS=000020203"
     }
   }
 }

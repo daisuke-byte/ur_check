@@ -24,6 +24,66 @@
       "total": 107500,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000017302"
     },
+    "20_137_1:000150306": {
+      "access": [
+        "東武伊勢崎線「竹ノ塚」駅 徒歩2～5分"
+      ],
+      "area": 80.0,
+      "commonfee": 5900,
+      "danchi_id": "20_137_1",
+      "danchi_name": "竹の塚第三アネックス",
+      "floor": 3,
+      "floor_all": 6,
+      "group": "東京23区:121",
+      "key": "20_137_1:000150306",
+      "layout": "3LDK",
+      "rent": 169300,
+      "room_id": "000150306",
+      "room_name": "15号棟306号室",
+      "total": 175200,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1371_room.html?JKSS=000150306"
+    },
+    "20_164_0:000020203": {
+      "access": [
+        "JR常磐線「北千住」駅 徒歩5～7分",
+        "東武伊勢崎線「北千住」駅 徒歩5～7分",
+        "つくばエクスプレス「北千住」駅 徒歩5～7分"
+      ],
+      "area": 43.0,
+      "commonfee": 4200,
+      "danchi_id": "20_164_0",
+      "danchi_name": "日の出町",
+      "floor": 2,
+      "floor_all": 11,
+      "group": "東京23区:121",
+      "key": "20_164_0:000020203",
+      "layout": "1LDK",
+      "rent": 115600,
+      "room_id": "000020203",
+      "room_name": "2号棟203号室",
+      "total": 119800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1640_room.html?JKSS=000020203"
+    },
+    "20_216_0:030019401": {
+      "access": [
+        "日暮里舎人ライナー「西新井大師西」駅 徒歩2～6分",
+        "東武伊勢崎線「西新井」駅バス9分 徒歩2～6分"
+      ],
+      "area": 41.0,
+      "commonfee": 3300,
+      "danchi_id": "20_216_0",
+      "danchi_name": "江北六丁目",
+      "floor": 4,
+      "floor_all": 5,
+      "group": "東京23区:121",
+      "key": "20_216_0:030019401",
+      "layout": "2DK",
+      "rent": 77300,
+      "room_id": "030019401",
+      "room_name": "30-19号棟401号室",
+      "total": 80600,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2160_room.html?JKSS=030019401"
+    },
     "20_225_0:226060302": {
       "access": [
         "都営三田線「高島平」駅 徒歩2～11分",
@@ -64,27 +124,6 @@
       "total": 69100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000090809"
     },
-    "20_254_0:000051107": {
-      "access": [
-        "東京メトロ東西線「西葛西」駅 徒歩3～9分",
-        "東京メトロ東西線「葛西」駅 徒歩14～17分",
-        "都営新宿線「船堀」駅バス13分 徒歩1～5分"
-      ],
-      "area": 47.0,
-      "commonfee": 3000,
-      "danchi_id": "20_254_0",
-      "danchi_name": "小島町二丁目",
-      "floor": 11,
-      "floor_all": 14,
-      "group": "東京23区:123",
-      "key": "20_254_0:000051107",
-      "layout": "2DK",
-      "rent": 105700,
-      "room_id": "000051107",
-      "room_name": "5号棟1107号室",
-      "total": 108700,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2540_room.html?JKSS=000051107"
-    },
     "20_267_0:000050415": {
       "access": [
         "東京メトロ南北線「王子神谷」駅 徒歩2～5分",
@@ -104,6 +143,27 @@
       "room_name": "5号棟415号室",
       "total": 123300,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2670_room.html?JKSS=000050415"
+    },
+    "20_294_0:000000635": {
+      "access": [
+        "東京メトロ東西線「南砂町」駅 徒歩17分",
+        "都営新宿線「大島」駅バス7分 徒歩4分",
+        "JR総武線・東武亀戸線「亀戸」駅バス13分 徒歩4分"
+      ],
+      "area": 34.0,
+      "commonfee": 3000,
+      "danchi_id": "20_294_0",
+      "danchi_name": "北砂七丁目",
+      "floor": 6,
+      "floor_all": 14,
+      "group": "東京23区:108",
+      "key": "20_294_0:000000635",
+      "layout": "1DK",
+      "rent": 74100,
+      "room_id": "000000635",
+      "room_name": "635号室",
+      "total": 77100,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2940_room.html?JKSS=000000635"
     },
     "20_320_0:000031206": {
       "access": [
@@ -126,27 +186,6 @@
       "total": 175100,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3200_room.html?JKSS=000031206"
     },
-    "20_346_0:000020710": {
-      "access": [
-        "都営新宿線「東大島」駅 徒歩3～4分",
-        "都営新宿線「大島」駅 徒歩10～12分",
-        "JR総武線・東武亀戸線「亀戸」駅バス11分 徒歩2～3分"
-      ],
-      "area": 66.0,
-      "commonfee": 4000,
-      "danchi_id": "20_346_0",
-      "danchi_name": "東大島駅前ハイツ",
-      "floor": 7,
-      "floor_all": 14,
-      "group": "東京23区:108",
-      "key": "20_346_0:000020710",
-      "layout": "3DK",
-      "rent": 144000,
-      "room_id": "000020710",
-      "room_name": "2号棟710号室",
-      "total": 148000,
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3460_room.html?JKSS=000020710"
-    },
     "20_640_0:000040302": {
       "access": [
         "JR常磐線「金町」駅 徒歩9～11分",
@@ -167,6 +206,27 @@
       "total": 143390,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6400_room.html?JKSS=000040302"
     },
+    "20_663_0:000050703": {
+      "access": [
+        "JR常磐線快速「南千住」駅 徒歩13～15分",
+        "東京メトロ日比谷線「南千住」駅 徒歩13～15分",
+        "つくばエクスプレス「南千住」駅 徒歩14～16分"
+      ],
+      "area": 52.0,
+      "commonfee": 6100,
+      "danchi_id": "20_663_0",
+      "danchi_name": "リバーハープコート南千住",
+      "floor": 7,
+      "floor_all": 10,
+      "group": "東京23区:118",
+      "key": "20_663_0:000050703",
+      "layout": "1LDK",
+      "rent": 138700,
+      "room_id": "000050703",
+      "room_name": "5号棟703号室",
+      "total": 144800,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6630_room.html?JKSS=000050703"
+    },
     "20_698_0:000210211": {
       "access": [
         "JR京浜東北・根岸線「王子」駅バス12分 徒歩1～2分",
@@ -186,6 +246,26 @@
       "room_name": "21号棟211号室",
       "total": 127200,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6980_room.html?JKSS=000210211"
+    },
+    "20_700_0:000010502": {
+      "access": [
+        "JR常磐線「綾瀬」駅 徒歩12～16分",
+        "東京メトロ千代田線「綾瀬」駅 徒歩12～16分"
+      ],
+      "area": 59.0,
+      "commonfee": 5500,
+      "danchi_id": "20_700_0",
+      "danchi_name": "パークタウン東綾瀬",
+      "floor": 5,
+      "floor_all": 10,
+      "group": "東京23区:121",
+      "key": "20_700_0:000010502",
+      "layout": "1LDK",
+      "rent": 147500,
+      "room_id": "000010502",
+      "room_name": "1号棟502号室",
+      "total": 153000,
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7000_room.html?JKSS=000010502"
     },
     "20_705_0:000030409": {
       "access": [
